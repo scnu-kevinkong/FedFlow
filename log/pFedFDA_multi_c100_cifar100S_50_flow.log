@@ -1,0 +1,647 @@
+2025-05-08 14:02:45,678 - FedFDA_Flow - INFO - Initialized global covariance with shape: torch.Size([128, 128])
+2025-05-08 14:02:45,679 - FedFDA_Flow - INFO - Using server momentum (FedAvgM): 0.9
+2025-05-08 14:02:45,694 - FedFDA_Flow - INFO - Using corruption-type specific weighting: noise=0.4, blur=0.6, other=0.5
+2025-05-08 14:02:45,694 - FedFDA_Flow - INFO - Starting FedFDA training...
+2025-05-08 14:02:45,695 - FedFDA_Flow - INFO - Round [1/200]	 Selected 21 clients.
+2025-05-08 14:02:58,507 - FedFDA_Flow - INFO - Round [1/200]	 Client training completed. Avg Acc: 9.48, Avg Loss: 3.7290
+2025-05-08 14:02:58,590 - FedFDA_Flow - INFO - Round [1/200]	 Train Loss [3.7290]	 Train Acc [9.48]	 Round Time [12.90s]
+2025-05-08 14:02:58,590 - FedFDA_Flow - INFO - Round [2/200]	 Selected 25 clients.
+2025-05-08 14:03:12,539 - FedFDA_Flow - INFO - Round [2/200]	 Client training completed. Avg Acc: 9.32, Avg Loss: 3.6905
+2025-05-08 14:03:12,655 - FedFDA_Flow - INFO - Round [2/200]	 Train Loss [3.6905]	 Train Acc [9.32]	 Round Time [14.07s]
+2025-05-08 14:03:12,656 - FedFDA_Flow - INFO - Round [3/200]	 Selected 32 clients.
+2025-05-08 14:03:34,564 - FedFDA_Flow - INFO - Round [3/200]	 Client training completed. Avg Acc: 10.84, Avg Loss: 3.6330
+2025-05-08 14:03:34,650 - FedFDA_Flow - INFO - Round [3/200]	 Train Loss [3.6330]	 Train Acc [10.84]	 Round Time [21.99s]
+2025-05-08 14:03:34,650 - FedFDA_Flow - INFO - Round [4/200]	 Selected 31 clients.
+2025-05-08 14:03:53,870 - FedFDA_Flow - INFO - Round [4/200]	 Client training completed. Avg Acc: 10.94, Avg Loss: 3.6400
+2025-05-08 14:03:53,887 - FedFDA_Flow - INFO - Round [4/200]	 Train Loss [3.6400]	 Train Acc [10.94]	 Round Time [19.24s]
+2025-05-08 14:03:53,887 - FedFDA_Flow - INFO - Round [5/200]	 Selected 32 clients.
+2025-05-08 14:04:16,393 - FedFDA_Flow - INFO - Round [5/200]	 Client training completed. Avg Acc: 14.95, Avg Loss: 3.4127
+2025-05-08 14:04:16,493 - FedFDA_Flow - INFO - Round [5/200]	 Train Loss [3.4127]	 Train Acc [14.95]	 Round Time [22.61s]
+2025-05-08 14:04:16,493 - FedFDA_Flow - INFO - Round [6/200]	 Selected 29 clients.
+2025-05-08 14:04:35,623 - FedFDA_Flow - INFO - Round [6/200]	 Client training completed. Avg Acc: 15.00, Avg Loss: 3.4619
+2025-05-08 14:04:35,715 - FedFDA_Flow - INFO - Round [6/200]	 Train Loss [3.4619]	 Train Acc [15.00]	 Round Time [19.22s]
+2025-05-08 14:04:35,715 - FedFDA_Flow - INFO - Round [7/200]	 Selected 29 clients.
+2025-05-08 14:04:55,173 - FedFDA_Flow - INFO - Round [7/200]	 Client training completed. Avg Acc: 16.76, Avg Loss: 3.2774
+2025-05-08 14:04:55,333 - FedFDA_Flow - INFO - Round [7/200]	 Train Loss [3.2774]	 Train Acc [16.76]	 Round Time [19.62s]
+2025-05-08 14:04:55,333 - FedFDA_Flow - INFO - Round [8/200]	 Selected 34 clients.
+2025-05-08 14:05:19,015 - FedFDA_Flow - INFO - Round [8/200]	 Client training completed. Avg Acc: 17.48, Avg Loss: 3.2626
+2025-05-08 14:05:19,114 - FedFDA_Flow - INFO - Round [8/200]	 Train Loss [3.2626]	 Train Acc [17.48]	 Round Time [23.78s]
+2025-05-08 14:05:19,115 - FedFDA_Flow - INFO - Round [9/200]	 Selected 37 clients.
+2025-05-08 14:05:45,413 - FedFDA_Flow - INFO - Round [9/200]	 Client training completed. Avg Acc: 18.17, Avg Loss: 3.2121
+2025-05-08 14:05:45,432 - FedFDA_Flow - INFO - Round [9/200]	 Train Loss [3.2121]	 Train Acc [18.17]	 Round Time [26.32s]
+2025-05-08 14:05:45,432 - FedFDA_Flow - INFO - Round [10/200]	 Selected 34 clients.
+2025-05-08 14:06:08,357 - FedFDA_Flow - INFO - Round [10/200]	 Client training completed. Avg Acc: 18.92, Avg Loss: 3.1788
+2025-05-08 14:06:08,459 - FedFDA_Flow - INFO - Round [10/200]	 Train Loss [3.1788]	 Train Acc [18.92]	 Round Time [23.03s]
+2025-05-08 14:06:08,459 - FedFDA_Flow - INFO - Round [11/200]	 Selected 27 clients.
+2025-05-08 14:06:27,859 - FedFDA_Flow - INFO - Round [11/200]	 Client training completed. Avg Acc: 21.86, Avg Loss: 3.0584
+2025-05-08 14:06:28,040 - FedFDA_Flow - INFO - Round [11/200]	 Train Loss [3.0584]	 Train Acc [21.86]	 Round Time [19.58s]
+2025-05-08 14:06:28,040 - FedFDA_Flow - INFO - Round [12/200]	 Selected 23 clients.
+2025-05-08 14:06:43,775 - FedFDA_Flow - INFO - Round [12/200]	 Client training completed. Avg Acc: 22.58, Avg Loss: 2.9865
+2025-05-08 14:06:43,863 - FedFDA_Flow - INFO - Round [12/200]	 Train Loss [2.9865]	 Train Acc [22.58]	 Round Time [15.82s]
+2025-05-08 14:06:43,864 - FedFDA_Flow - INFO - Round [13/200]	 Selected 26 clients.
+2025-05-08 14:07:01,944 - FedFDA_Flow - INFO - Round [13/200]	 Client training completed. Avg Acc: 23.23, Avg Loss: 2.9772
+2025-05-08 14:07:02,032 - FedFDA_Flow - INFO - Round [13/200]	 Train Loss [2.9772]	 Train Acc [23.23]	 Round Time [18.17s]
+2025-05-08 14:07:02,032 - FedFDA_Flow - INFO - Round [14/200]	 Selected 35 clients.
+2025-05-08 14:07:27,516 - FedFDA_Flow - INFO - Round [14/200]	 Client training completed. Avg Acc: 25.89, Avg Loss: 2.8602
+2025-05-08 14:07:27,607 - FedFDA_Flow - INFO - Round [14/200]	 Train Loss [2.8602]	 Train Acc [25.89]	 Round Time [25.58s]
+2025-05-08 14:07:27,608 - FedFDA_Flow - INFO - Round [15/200]	 Selected 38 clients.
+2025-05-08 14:07:56,621 - FedFDA_Flow - INFO - Round [15/200]	 Client training completed. Avg Acc: 27.29, Avg Loss: 2.7968
+2025-05-08 14:07:56,703 - FedFDA_Flow - INFO - Round [15/200]	 Train Loss [2.7968]	 Train Acc [27.29]	 Round Time [29.10s]
+2025-05-08 14:07:56,703 - FedFDA_Flow - INFO - Round [16/200]	 Selected 29 clients.
+2025-05-08 14:08:17,698 - FedFDA_Flow - INFO - Round [16/200]	 Client training completed. Avg Acc: 29.36, Avg Loss: 2.7035
+2025-05-08 14:08:17,719 - FedFDA_Flow - INFO - Round [16/200]	 Train Loss [2.7035]	 Train Acc [29.36]	 Round Time [21.02s]
+2025-05-08 14:08:17,719 - FedFDA_Flow - INFO - Round [17/200]	 Selected 31 clients.
+2025-05-08 14:08:39,925 - FedFDA_Flow - INFO - Round [17/200]	 Client training completed. Avg Acc: 31.36, Avg Loss: 2.6356
+2025-05-08 14:08:40,010 - FedFDA_Flow - INFO - Round [17/200]	 Train Loss [2.6356]	 Train Acc [31.36]	 Round Time [22.29s]
+2025-05-08 14:08:40,011 - FedFDA_Flow - INFO - Round [18/200]	 Selected 31 clients.
+2025-05-08 14:09:00,738 - FedFDA_Flow - INFO - Round [18/200]	 Client training completed. Avg Acc: 32.08, Avg Loss: 2.5735
+2025-05-08 14:09:00,824 - FedFDA_Flow - INFO - Round [18/200]	 Train Loss [2.5735]	 Train Acc [32.08]	 Round Time [20.81s]
+2025-05-08 14:09:00,825 - FedFDA_Flow - INFO - Round [19/200]	 Selected 33 clients.
+2025-05-08 14:09:23,609 - FedFDA_Flow - INFO - Round [19/200]	 Client training completed. Avg Acc: 33.13, Avg Loss: 2.5389
+2025-05-08 14:09:23,868 - FedFDA_Flow - INFO - Round [19/200]	 Train Loss [2.5389]	 Train Acc [33.13]	 Round Time [23.04s]
+2025-05-08 14:09:23,869 - FedFDA_Flow - INFO - Round [20/200]	 Selected 31 clients.
+2025-05-08 14:09:46,125 - FedFDA_Flow - INFO - Round [20/200]	 Client training completed. Avg Acc: 34.63, Avg Loss: 2.4734
+2025-05-08 14:09:46,203 - FedFDA_Flow - INFO - Starting personalized evaluation...
+2025-05-08 14:10:18,093 - FedFDA_Flow - INFO - Personalized Eval Completed. KL Div: 189.6037
+2025-05-08 14:10:18,093 - FedFDA_Flow - INFO - Corruption Category Results: Noise: 25.69, Blur: 25.95, Other: 22.43, Clean: 25.23
+2025-05-08 14:10:18,093 - FedFDA_Flow - INFO - Clients with potentially suboptimal beta values: 50
+2025-05-08 14:10:18,094 - FedFDA_Flow - INFO - Round [20/200]	 Train Loss [2.4734]	 Train Acc [34.63]	 Round Time [22.33s]	 P-Test Loss [3.2708]	 P-Test Acc [24.78 +/- 5.03]
+2025-05-08 14:10:18,094 - FedFDA_Flow - INFO - Round [21/200]	 Selected 26 clients.
+2025-05-08 14:10:35,998 - FedFDA_Flow - INFO - Round [21/200]	 Client training completed. Avg Acc: 37.04, Avg Loss: 2.3907
+2025-05-08 14:10:36,016 - FedFDA_Flow - INFO - Round [21/200]	 Train Loss [2.3907]	 Train Acc [37.04]	 Round Time [17.92s]
+2025-05-08 14:10:36,016 - FedFDA_Flow - INFO - Round [22/200]	 Selected 24 clients.
+2025-05-08 14:10:52,871 - FedFDA_Flow - INFO - Round [22/200]	 Client training completed. Avg Acc: 41.11, Avg Loss: 2.2314
+2025-05-08 14:10:52,981 - FedFDA_Flow - INFO - Round [22/200]	 Train Loss [2.2314]	 Train Acc [41.11]	 Round Time [16.96s]
+2025-05-08 14:10:52,981 - FedFDA_Flow - INFO - Round [23/200]	 Selected 43 clients.
+2025-05-08 14:11:22,747 - FedFDA_Flow - INFO - Round [23/200]	 Client training completed. Avg Acc: 39.41, Avg Loss: 2.3019
+2025-05-08 14:11:22,910 - FedFDA_Flow - INFO - Round [23/200]	 Train Loss [2.3019]	 Train Acc [39.41]	 Round Time [29.93s]
+2025-05-08 14:11:22,911 - FedFDA_Flow - INFO - Round [24/200]	 Selected 26 clients.
+2025-05-08 14:11:40,177 - FedFDA_Flow - INFO - Round [24/200]	 Client training completed. Avg Acc: 41.64, Avg Loss: 2.2111
+2025-05-08 14:11:40,258 - FedFDA_Flow - INFO - Round [24/200]	 Train Loss [2.2111]	 Train Acc [41.64]	 Round Time [17.35s]
+2025-05-08 14:11:40,259 - FedFDA_Flow - INFO - Round [25/200]	 Selected 32 clients.
+2025-05-08 14:12:00,960 - FedFDA_Flow - INFO - Round [25/200]	 Client training completed. Avg Acc: 44.15, Avg Loss: 2.0988
+2025-05-08 14:12:00,984 - FedFDA_Flow - INFO - Round [25/200]	 Train Loss [2.0988]	 Train Acc [44.15]	 Round Time [20.72s]
+2025-05-08 14:12:00,984 - FedFDA_Flow - INFO - Round [26/200]	 Selected 21 clients.
+2025-05-08 14:12:14,863 - FedFDA_Flow - INFO - Round [26/200]	 Client training completed. Avg Acc: 45.50, Avg Loss: 2.0638
+2025-05-08 14:12:14,884 - FedFDA_Flow - INFO - Round [26/200]	 Train Loss [2.0638]	 Train Acc [45.50]	 Round Time [13.90s]
+2025-05-08 14:12:14,884 - FedFDA_Flow - INFO - Round [27/200]	 Selected 36 clients.
+2025-05-08 14:12:42,919 - FedFDA_Flow - INFO - Round [27/200]	 Client training completed. Avg Acc: 45.31, Avg Loss: 2.0953
+2025-05-08 14:12:43,005 - FedFDA_Flow - INFO - Round [27/200]	 Train Loss [2.0953]	 Train Acc [45.31]	 Round Time [28.12s]
+2025-05-08 14:12:43,006 - FedFDA_Flow - INFO - Round [28/200]	 Selected 29 clients.
+2025-05-08 14:13:02,501 - FedFDA_Flow - INFO - Round [28/200]	 Client training completed. Avg Acc: 47.54, Avg Loss: 1.9997
+2025-05-08 14:13:02,616 - FedFDA_Flow - INFO - Round [28/200]	 Train Loss [1.9997]	 Train Acc [47.54]	 Round Time [19.61s]
+2025-05-08 14:13:02,617 - FedFDA_Flow - INFO - Round [29/200]	 Selected 32 clients.
+2025-05-08 14:13:22,799 - FedFDA_Flow - INFO - Round [29/200]	 Client training completed. Avg Acc: 51.42, Avg Loss: 1.8528
+2025-05-08 14:13:22,890 - FedFDA_Flow - INFO - Round [29/200]	 Train Loss [1.8528]	 Train Acc [51.42]	 Round Time [20.27s]
+2025-05-08 14:13:22,890 - FedFDA_Flow - INFO - Round [30/200]	 Selected 29 clients.
+2025-05-08 14:13:42,545 - FedFDA_Flow - INFO - Round [30/200]	 Client training completed. Avg Acc: 50.30, Avg Loss: 1.9113
+2025-05-08 14:13:42,889 - FedFDA_Flow - INFO - Round [30/200]	 Train Loss [1.9113]	 Train Acc [50.30]	 Round Time [20.00s]
+2025-05-08 14:13:42,889 - FedFDA_Flow - INFO - Round [31/200]	 Selected 28 clients.
+2025-05-08 14:14:01,111 - FedFDA_Flow - INFO - Round [31/200]	 Client training completed. Avg Acc: 49.92, Avg Loss: 1.9148
+2025-05-08 14:14:01,197 - FedFDA_Flow - INFO - Round [31/200]	 Train Loss [1.9148]	 Train Acc [49.92]	 Round Time [18.31s]
+2025-05-08 14:14:01,198 - FedFDA_Flow - INFO - Round [32/200]	 Selected 36 clients.
+2025-05-08 14:14:23,170 - FedFDA_Flow - INFO - Round [32/200]	 Client training completed. Avg Acc: 53.55, Avg Loss: 1.7698
+2025-05-08 14:14:23,262 - FedFDA_Flow - INFO - Round [32/200]	 Train Loss [1.7698]	 Train Acc [53.55]	 Round Time [22.06s]
+2025-05-08 14:14:23,262 - FedFDA_Flow - INFO - Round [33/200]	 Selected 28 clients.
+2025-05-08 14:14:41,860 - FedFDA_Flow - INFO - Round [33/200]	 Client training completed. Avg Acc: 54.39, Avg Loss: 1.7280
+2025-05-08 14:14:42,055 - FedFDA_Flow - INFO - Round [33/200]	 Train Loss [1.7280]	 Train Acc [54.39]	 Round Time [18.79s]
+2025-05-08 14:14:42,055 - FedFDA_Flow - INFO - Round [34/200]	 Selected 26 clients.
+2025-05-08 14:14:59,961 - FedFDA_Flow - INFO - Round [34/200]	 Client training completed. Avg Acc: 53.71, Avg Loss: 1.7593
+2025-05-08 14:15:00,047 - FedFDA_Flow - INFO - Round [34/200]	 Train Loss [1.7593]	 Train Acc [53.71]	 Round Time [17.99s]
+2025-05-08 14:15:00,047 - FedFDA_Flow - INFO - Round [35/200]	 Selected 23 clients.
+2025-05-08 14:15:15,479 - FedFDA_Flow - INFO - Round [35/200]	 Client training completed. Avg Acc: 55.76, Avg Loss: 1.6754
+2025-05-08 14:15:15,502 - FedFDA_Flow - INFO - Round [35/200]	 Train Loss [1.6754]	 Train Acc [55.76]	 Round Time [15.45s]
+2025-05-08 14:15:15,503 - FedFDA_Flow - INFO - Round [36/200]	 Selected 30 clients.
+2025-05-08 14:15:34,383 - FedFDA_Flow - INFO - Round [36/200]	 Client training completed. Avg Acc: 55.98, Avg Loss: 1.6812
+2025-05-08 14:15:34,512 - FedFDA_Flow - INFO - Round [36/200]	 Train Loss [1.6812]	 Train Acc [55.98]	 Round Time [19.01s]
+2025-05-08 14:15:34,512 - FedFDA_Flow - INFO - Round [37/200]	 Selected 32 clients.
+2025-05-08 14:15:56,317 - FedFDA_Flow - INFO - Round [37/200]	 Client training completed. Avg Acc: 56.94, Avg Loss: 1.6495
+2025-05-08 14:15:56,404 - FedFDA_Flow - INFO - Round [37/200]	 Train Loss [1.6495]	 Train Acc [56.94]	 Round Time [21.89s]
+2025-05-08 14:15:56,404 - FedFDA_Flow - INFO - Round [38/200]	 Selected 33 clients.
+2025-05-08 14:16:19,025 - FedFDA_Flow - INFO - Round [38/200]	 Client training completed. Avg Acc: 56.89, Avg Loss: 1.6545
+2025-05-08 14:16:19,202 - FedFDA_Flow - INFO - Round [38/200]	 Train Loss [1.6545]	 Train Acc [56.89]	 Round Time [22.80s]
+2025-05-08 14:16:19,203 - FedFDA_Flow - INFO - Round [39/200]	 Selected 35 clients.
+2025-05-08 14:16:42,337 - FedFDA_Flow - INFO - Round [39/200]	 Client training completed. Avg Acc: 57.19, Avg Loss: 1.6567
+2025-05-08 14:16:42,428 - FedFDA_Flow - INFO - Round [39/200]	 Train Loss [1.6567]	 Train Acc [57.19]	 Round Time [23.23s]
+2025-05-08 14:16:42,429 - FedFDA_Flow - INFO - Round [40/200]	 Selected 28 clients.
+2025-05-08 14:17:01,267 - FedFDA_Flow - INFO - Round [40/200]	 Client training completed. Avg Acc: 59.47, Avg Loss: 1.5205
+2025-05-08 14:17:01,352 - FedFDA_Flow - INFO - Starting personalized evaluation...
+2025-05-08 14:17:32,737 - FedFDA_Flow - INFO - Personalized Eval Completed. KL Div: 135.4739
+2025-05-08 14:17:32,737 - FedFDA_Flow - INFO - Corruption Category Results: Noise: 31.60, Blur: 32.57, Other: 26.84, Clean: 31.93
+2025-05-08 14:17:32,737 - FedFDA_Flow - INFO - Clients with potentially suboptimal beta values: 50
+2025-05-08 14:17:32,738 - FedFDA_Flow - INFO - Round [40/200]	 Train Loss [1.5205]	 Train Acc [59.47]	 Round Time [18.92s]	 P-Test Loss [3.2411]	 P-Test Acc [30.73 +/- 5.90]
+2025-05-08 14:17:32,738 - FedFDA_Flow - INFO - Round [41/200]	 Selected 36 clients.
+2025-05-08 14:17:55,619 - FedFDA_Flow - INFO - Round [41/200]	 Client training completed. Avg Acc: 61.52, Avg Loss: 1.4869
+2025-05-08 14:17:55,706 - FedFDA_Flow - INFO - Round [41/200]	 Train Loss [1.4869]	 Train Acc [61.52]	 Round Time [22.97s]
+2025-05-08 14:17:55,707 - FedFDA_Flow - INFO - Round [42/200]	 Selected 33 clients.
+2025-05-08 14:18:16,634 - FedFDA_Flow - INFO - Round [42/200]	 Client training completed. Avg Acc: 57.58, Avg Loss: 1.6381
+2025-05-08 14:18:16,809 - FedFDA_Flow - INFO - Round [42/200]	 Train Loss [1.6381]	 Train Acc [57.58]	 Round Time [21.10s]
+2025-05-08 14:18:16,809 - FedFDA_Flow - INFO - Round [43/200]	 Selected 23 clients.
+2025-05-08 14:18:31,497 - FedFDA_Flow - INFO - Round [43/200]	 Client training completed. Avg Acc: 61.06, Avg Loss: 1.4922
+2025-05-08 14:18:31,580 - FedFDA_Flow - INFO - Round [43/200]	 Train Loss [1.4922]	 Train Acc [61.06]	 Round Time [14.77s]
+2025-05-08 14:18:31,580 - FedFDA_Flow - INFO - Round [44/200]	 Selected 28 clients.
+2025-05-08 14:18:50,733 - FedFDA_Flow - INFO - Round [44/200]	 Client training completed. Avg Acc: 60.42, Avg Loss: 1.4904
+2025-05-08 14:18:50,820 - FedFDA_Flow - INFO - Round [44/200]	 Train Loss [1.4904]	 Train Acc [60.42]	 Round Time [19.24s]
+2025-05-08 14:18:50,820 - FedFDA_Flow - INFO - Round [45/200]	 Selected 41 clients.
+2025-05-08 14:19:17,334 - FedFDA_Flow - INFO - Round [45/200]	 Client training completed. Avg Acc: 61.09, Avg Loss: 1.4883
+2025-05-08 14:19:17,371 - FedFDA_Flow - INFO - Round [45/200]	 Train Loss [1.4883]	 Train Acc [61.09]	 Round Time [26.55s]
+2025-05-08 14:19:17,372 - FedFDA_Flow - INFO - Round [46/200]	 Selected 27 clients.
+2025-05-08 14:19:35,190 - FedFDA_Flow - INFO - Round [46/200]	 Client training completed. Avg Acc: 64.61, Avg Loss: 1.3407
+2025-05-08 14:19:35,219 - FedFDA_Flow - INFO - Round [46/200]	 Train Loss [1.3407]	 Train Acc [64.61]	 Round Time [17.85s]
+2025-05-08 14:19:35,220 - FedFDA_Flow - INFO - Round [47/200]	 Selected 42 clients.
+2025-05-08 14:20:02,113 - FedFDA_Flow - INFO - Round [47/200]	 Client training completed. Avg Acc: 62.30, Avg Loss: 1.4363
+2025-05-08 14:20:02,300 - FedFDA_Flow - INFO - Round [47/200]	 Train Loss [1.4363]	 Train Acc [62.30]	 Round Time [27.08s]
+2025-05-08 14:20:02,300 - FedFDA_Flow - INFO - Round [48/200]	 Selected 27 clients.
+2025-05-08 14:20:19,637 - FedFDA_Flow - INFO - Round [48/200]	 Client training completed. Avg Acc: 64.24, Avg Loss: 1.3778
+2025-05-08 14:20:19,728 - FedFDA_Flow - INFO - Round [48/200]	 Train Loss [1.3778]	 Train Acc [64.24]	 Round Time [17.43s]
+2025-05-08 14:20:19,728 - FedFDA_Flow - INFO - Round [49/200]	 Selected 30 clients.
+2025-05-08 14:20:40,538 - FedFDA_Flow - INFO - Round [49/200]	 Client training completed. Avg Acc: 62.45, Avg Loss: 1.4282
+2025-05-08 14:20:40,624 - FedFDA_Flow - INFO - Round [49/200]	 Train Loss [1.4282]	 Train Acc [62.45]	 Round Time [20.90s]
+2025-05-08 14:20:40,625 - FedFDA_Flow - INFO - Round [50/200]	 Selected 25 clients.
+2025-05-08 14:20:55,654 - FedFDA_Flow - INFO - Round [50/200]	 Client training completed. Avg Acc: 63.37, Avg Loss: 1.4036
+2025-05-08 14:20:55,754 - FedFDA_Flow - INFO - Round [50/200]	 Train Loss [1.4036]	 Train Acc [63.37]	 Round Time [15.13s]
+2025-05-08 14:20:55,754 - FedFDA_Flow - INFO - Round [51/200]	 Selected 33 clients.
+2025-05-08 14:21:17,182 - FedFDA_Flow - INFO - Round [51/200]	 Client training completed. Avg Acc: 63.19, Avg Loss: 1.4222
+2025-05-08 14:21:17,305 - FedFDA_Flow - INFO - Round [51/200]	 Train Loss [1.4222]	 Train Acc [63.19]	 Round Time [21.55s]
+2025-05-08 14:21:17,306 - FedFDA_Flow - INFO - Round [52/200]	 Selected 36 clients.
+2025-05-08 14:21:44,314 - FedFDA_Flow - INFO - Round [52/200]	 Client training completed. Avg Acc: 65.56, Avg Loss: 1.3141
+2025-05-08 14:21:44,442 - FedFDA_Flow - INFO - Round [52/200]	 Train Loss [1.3141]	 Train Acc [65.56]	 Round Time [27.14s]
+2025-05-08 14:21:44,442 - FedFDA_Flow - INFO - Round [53/200]	 Selected 25 clients.
+2025-05-08 14:22:01,450 - FedFDA_Flow - INFO - Round [53/200]	 Client training completed. Avg Acc: 60.59, Avg Loss: 1.5242
+2025-05-08 14:22:01,615 - FedFDA_Flow - INFO - Round [53/200]	 Train Loss [1.5242]	 Train Acc [60.59]	 Round Time [17.17s]
+2025-05-08 14:22:01,616 - FedFDA_Flow - INFO - Round [54/200]	 Selected 29 clients.
+2025-05-08 14:22:20,172 - FedFDA_Flow - INFO - Round [54/200]	 Client training completed. Avg Acc: 62.57, Avg Loss: 1.4418
+2025-05-08 14:22:20,274 - FedFDA_Flow - INFO - Round [54/200]	 Train Loss [1.4418]	 Train Acc [62.57]	 Round Time [18.66s]
+2025-05-08 14:22:20,274 - FedFDA_Flow - INFO - Round [55/200]	 Selected 25 clients.
+2025-05-08 14:22:35,909 - FedFDA_Flow - INFO - Round [55/200]	 Client training completed. Avg Acc: 64.52, Avg Loss: 1.3549
+2025-05-08 14:22:35,995 - FedFDA_Flow - INFO - Round [55/200]	 Train Loss [1.3549]	 Train Acc [64.52]	 Round Time [15.72s]
+2025-05-08 14:22:35,996 - FedFDA_Flow - INFO - Round [56/200]	 Selected 29 clients.
+2025-05-08 14:22:54,617 - FedFDA_Flow - INFO - Round [56/200]	 Client training completed. Avg Acc: 64.49, Avg Loss: 1.3416
+2025-05-08 14:22:54,713 - FedFDA_Flow - INFO - Round [56/200]	 Train Loss [1.3416]	 Train Acc [64.49]	 Round Time [18.72s]
+2025-05-08 14:22:54,714 - FedFDA_Flow - INFO - Round [57/200]	 Selected 32 clients.
+2025-05-08 14:23:15,396 - FedFDA_Flow - INFO - Round [57/200]	 Client training completed. Avg Acc: 64.18, Avg Loss: 1.3688
+2025-05-08 14:23:15,606 - FedFDA_Flow - INFO - Round [57/200]	 Train Loss [1.3688]	 Train Acc [64.18]	 Round Time [20.89s]
+2025-05-08 14:23:15,607 - FedFDA_Flow - INFO - Round [58/200]	 Selected 24 clients.
+2025-05-08 14:23:31,856 - FedFDA_Flow - INFO - Round [58/200]	 Client training completed. Avg Acc: 64.06, Avg Loss: 1.3956
+2025-05-08 14:23:32,114 - FedFDA_Flow - INFO - Round [58/200]	 Train Loss [1.3956]	 Train Acc [64.06]	 Round Time [16.51s]
+2025-05-08 14:23:32,115 - FedFDA_Flow - INFO - Round [59/200]	 Selected 20 clients.
+2025-05-08 14:23:44,417 - FedFDA_Flow - INFO - Round [59/200]	 Client training completed. Avg Acc: 62.66, Avg Loss: 1.4018
+2025-05-08 14:23:44,438 - FedFDA_Flow - INFO - Round [59/200]	 Train Loss [1.4018]	 Train Acc [62.66]	 Round Time [12.32s]
+2025-05-08 14:23:44,439 - FedFDA_Flow - INFO - Round [60/200]	 Selected 32 clients.
+2025-05-08 14:24:05,485 - FedFDA_Flow - INFO - Round [60/200]	 Client training completed. Avg Acc: 68.38, Avg Loss: 1.2019
+2025-05-08 14:24:05,502 - FedFDA_Flow - INFO - Starting personalized evaluation...
+2025-05-08 14:24:35,632 - FedFDA_Flow - INFO - Personalized Eval Completed. KL Div: 120.9138
+2025-05-08 14:24:35,632 - FedFDA_Flow - INFO - Corruption Category Results: Noise: 31.79, Blur: 33.57, Other: 27.62, Clean: 33.21
+2025-05-08 14:24:35,632 - FedFDA_Flow - INFO - Clients with potentially suboptimal beta values: 50
+2025-05-08 14:24:35,633 - FedFDA_Flow - INFO - Round [60/200]	 Train Loss [1.2019]	 Train Acc [68.38]	 Round Time [21.06s]	 P-Test Loss [3.3426]	 P-Test Acc [31.68 +/- 5.79]
+2025-05-08 14:24:35,633 - FedFDA_Flow - INFO - Round [61/200]	 Selected 34 clients.
+2025-05-08 14:24:57,671 - FedFDA_Flow - INFO - Round [61/200]	 Client training completed. Avg Acc: 67.28, Avg Loss: 1.2398
+2025-05-08 14:24:57,761 - FedFDA_Flow - INFO - Round [61/200]	 Train Loss [1.2398]	 Train Acc [67.28]	 Round Time [22.13s]
+2025-05-08 14:24:57,761 - FedFDA_Flow - INFO - Round [62/200]	 Selected 27 clients.
+2025-05-08 14:25:14,193 - FedFDA_Flow - INFO - Round [62/200]	 Client training completed. Avg Acc: 65.65, Avg Loss: 1.3262
+2025-05-08 14:25:14,287 - FedFDA_Flow - INFO - Round [62/200]	 Train Loss [1.3262]	 Train Acc [65.65]	 Round Time [16.53s]
+2025-05-08 14:25:14,287 - FedFDA_Flow - INFO - Round [63/200]	 Selected 32 clients.
+2025-05-08 14:25:34,277 - FedFDA_Flow - INFO - Round [63/200]	 Client training completed. Avg Acc: 65.66, Avg Loss: 1.3294
+2025-05-08 14:25:34,695 - FedFDA_Flow - INFO - Round [63/200]	 Train Loss [1.3294]	 Train Acc [65.66]	 Round Time [20.41s]
+2025-05-08 14:25:34,695 - FedFDA_Flow - INFO - Round [64/200]	 Selected 30 clients.
+2025-05-08 14:25:53,334 - FedFDA_Flow - INFO - Round [64/200]	 Client training completed. Avg Acc: 64.71, Avg Loss: 1.3526
+2025-05-08 14:25:53,526 - FedFDA_Flow - INFO - Round [64/200]	 Train Loss [1.3526]	 Train Acc [64.71]	 Round Time [18.83s]
+2025-05-08 14:25:53,526 - FedFDA_Flow - INFO - Round [65/200]	 Selected 27 clients.
+2025-05-08 14:26:10,998 - FedFDA_Flow - INFO - Round [65/200]	 Client training completed. Avg Acc: 63.93, Avg Loss: 1.3900
+2025-05-08 14:26:11,129 - FedFDA_Flow - INFO - Round [65/200]	 Train Loss [1.3900]	 Train Acc [63.93]	 Round Time [17.60s]
+2025-05-08 14:26:11,129 - FedFDA_Flow - INFO - Round [66/200]	 Selected 25 clients.
+2025-05-08 14:26:26,644 - FedFDA_Flow - INFO - Round [66/200]	 Client training completed. Avg Acc: 66.73, Avg Loss: 1.2748
+2025-05-08 14:26:26,665 - FedFDA_Flow - INFO - Round [66/200]	 Train Loss [1.2748]	 Train Acc [66.73]	 Round Time [15.54s]
+2025-05-08 14:26:26,666 - FedFDA_Flow - INFO - Round [67/200]	 Selected 32 clients.
+2025-05-08 14:26:47,614 - FedFDA_Flow - INFO - Round [67/200]	 Client training completed. Avg Acc: 66.97, Avg Loss: 1.2430
+2025-05-08 14:26:47,632 - FedFDA_Flow - INFO - Round [67/200]	 Train Loss [1.2430]	 Train Acc [66.97]	 Round Time [20.97s]
+2025-05-08 14:26:47,632 - FedFDA_Flow - INFO - Round [68/200]	 Selected 26 clients.
+2025-05-08 14:27:04,390 - FedFDA_Flow - INFO - Round [68/200]	 Client training completed. Avg Acc: 67.44, Avg Loss: 1.2444
+2025-05-08 14:27:04,414 - FedFDA_Flow - INFO - Round [68/200]	 Train Loss [1.2444]	 Train Acc [67.44]	 Round Time [16.78s]
+2025-05-08 14:27:04,422 - FedFDA_Flow - INFO - Round [69/200]	 Selected 31 clients.
+2025-05-08 14:27:23,903 - FedFDA_Flow - INFO - Round [69/200]	 Client training completed. Avg Acc: 70.80, Avg Loss: 1.1283
+2025-05-08 14:27:24,007 - FedFDA_Flow - INFO - Round [69/200]	 Train Loss [1.1283]	 Train Acc [70.80]	 Round Time [19.59s]
+2025-05-08 14:27:24,008 - FedFDA_Flow - INFO - Round [70/200]	 Selected 26 clients.
+2025-05-08 14:27:40,714 - FedFDA_Flow - INFO - Round [70/200]	 Client training completed. Avg Acc: 63.07, Avg Loss: 1.4309
+2025-05-08 14:27:40,878 - FedFDA_Flow - INFO - Round [70/200]	 Train Loss [1.4309]	 Train Acc [63.07]	 Round Time [16.87s]
+2025-05-08 14:27:40,878 - FedFDA_Flow - INFO - Round [71/200]	 Selected 23 clients.
+2025-05-08 14:27:56,782 - FedFDA_Flow - INFO - Round [71/200]	 Client training completed. Avg Acc: 68.31, Avg Loss: 1.1803
+2025-05-08 14:27:56,976 - FedFDA_Flow - INFO - Round [71/200]	 Train Loss [1.1803]	 Train Acc [68.31]	 Round Time [16.10s]
+2025-05-08 14:27:56,976 - FedFDA_Flow - INFO - Round [72/200]	 Selected 33 clients.
+2025-05-08 14:28:17,215 - FedFDA_Flow - INFO - Round [72/200]	 Client training completed. Avg Acc: 69.04, Avg Loss: 1.1984
+2025-05-08 14:28:17,299 - FedFDA_Flow - INFO - Round [72/200]	 Train Loss [1.1984]	 Train Acc [69.04]	 Round Time [20.32s]
+2025-05-08 14:28:17,299 - FedFDA_Flow - INFO - Round [73/200]	 Selected 30 clients.
+2025-05-08 14:28:36,660 - FedFDA_Flow - INFO - Round [73/200]	 Client training completed. Avg Acc: 69.11, Avg Loss: 1.1935
+2025-05-08 14:28:36,684 - FedFDA_Flow - INFO - Round [73/200]	 Train Loss [1.1935]	 Train Acc [69.11]	 Round Time [19.38s]
+2025-05-08 14:28:36,684 - FedFDA_Flow - INFO - Round [74/200]	 Selected 27 clients.
+2025-05-08 14:28:53,505 - FedFDA_Flow - INFO - Round [74/200]	 Client training completed. Avg Acc: 71.50, Avg Loss: 1.0977
+2025-05-08 14:28:53,595 - FedFDA_Flow - INFO - Round [74/200]	 Train Loss [1.0977]	 Train Acc [71.50]	 Round Time [16.91s]
+2025-05-08 14:28:53,595 - FedFDA_Flow - INFO - Round [75/200]	 Selected 27 clients.
+2025-05-08 14:29:10,648 - FedFDA_Flow - INFO - Round [75/200]	 Client training completed. Avg Acc: 67.87, Avg Loss: 1.2311
+2025-05-08 14:29:10,679 - FedFDA_Flow - INFO - Round [75/200]	 Train Loss [1.2311]	 Train Acc [67.87]	 Round Time [17.08s]
+2025-05-08 14:29:10,679 - FedFDA_Flow - INFO - Round [76/200]	 Selected 29 clients.
+2025-05-08 14:29:28,168 - FedFDA_Flow - INFO - Round [76/200]	 Client training completed. Avg Acc: 66.86, Avg Loss: 1.2528
+2025-05-08 14:29:28,262 - FedFDA_Flow - INFO - Round [76/200]	 Train Loss [1.2528]	 Train Acc [66.86]	 Round Time [17.58s]
+2025-05-08 14:29:28,262 - FedFDA_Flow - INFO - Round [77/200]	 Selected 30 clients.
+2025-05-08 14:29:46,447 - FedFDA_Flow - INFO - Round [77/200]	 Client training completed. Avg Acc: 65.97, Avg Loss: 1.3094
+2025-05-08 14:29:46,575 - FedFDA_Flow - INFO - Round [77/200]	 Train Loss [1.3094]	 Train Acc [65.97]	 Round Time [18.31s]
+2025-05-08 14:29:46,575 - FedFDA_Flow - INFO - Round [78/200]	 Selected 31 clients.
+2025-05-08 14:30:07,220 - FedFDA_Flow - INFO - Round [78/200]	 Client training completed. Avg Acc: 67.19, Avg Loss: 1.2527
+2025-05-08 14:30:07,357 - FedFDA_Flow - INFO - Round [78/200]	 Train Loss [1.2527]	 Train Acc [67.19]	 Round Time [20.78s]
+2025-05-08 14:30:07,357 - FedFDA_Flow - INFO - Round [79/200]	 Selected 25 clients.
+2025-05-08 14:30:23,260 - FedFDA_Flow - INFO - Round [79/200]	 Client training completed. Avg Acc: 67.52, Avg Loss: 1.2279
+2025-05-08 14:30:23,443 - FedFDA_Flow - INFO - Round [79/200]	 Train Loss [1.2279]	 Train Acc [67.52]	 Round Time [16.09s]
+2025-05-08 14:30:23,444 - FedFDA_Flow - INFO - Round [80/200]	 Selected 37 clients.
+2025-05-08 14:30:50,708 - FedFDA_Flow - INFO - Round [80/200]	 Client training completed. Avg Acc: 70.04, Avg Loss: 1.1320
+2025-05-08 14:30:50,801 - FedFDA_Flow - INFO - Starting personalized evaluation...
+2025-05-08 14:31:23,045 - FedFDA_Flow - INFO - Personalized Eval Completed. KL Div: 115.0509
+2025-05-08 14:31:23,045 - FedFDA_Flow - INFO - Corruption Category Results: Noise: 33.84, Blur: 34.13, Other: 28.48, Clean: 34.32
+2025-05-08 14:31:23,045 - FedFDA_Flow - INFO - Clients with potentially suboptimal beta values: 50
+2025-05-08 14:31:23,046 - FedFDA_Flow - INFO - Round [80/200]	 Train Loss [1.1320]	 Train Acc [70.04]	 Round Time [27.36s]	 P-Test Loss [3.3713]	 P-Test Acc [32.78 +/- 5.97]
+2025-05-08 14:31:23,046 - FedFDA_Flow - INFO - Round [81/200]	 Selected 23 clients.
+2025-05-08 14:31:37,504 - FedFDA_Flow - INFO - Round [81/200]	 Client training completed. Avg Acc: 73.09, Avg Loss: 1.0132
+2025-05-08 14:31:37,590 - FedFDA_Flow - INFO - Round [81/200]	 Train Loss [1.0132]	 Train Acc [73.09]	 Round Time [14.54s]
+2025-05-08 14:31:37,590 - FedFDA_Flow - INFO - Round [82/200]	 Selected 33 clients.
+2025-05-08 14:31:58,335 - FedFDA_Flow - INFO - Round [82/200]	 Client training completed. Avg Acc: 67.47, Avg Loss: 1.2687
+2025-05-08 14:31:58,425 - FedFDA_Flow - INFO - Round [82/200]	 Train Loss [1.2687]	 Train Acc [67.47]	 Round Time [20.84s]
+2025-05-08 14:31:58,426 - FedFDA_Flow - INFO - Round [83/200]	 Selected 36 clients.
+2025-05-08 14:32:20,142 - FedFDA_Flow - INFO - Round [83/200]	 Client training completed. Avg Acc: 70.36, Avg Loss: 1.1402
+2025-05-08 14:32:20,237 - FedFDA_Flow - INFO - Round [83/200]	 Train Loss [1.1402]	 Train Acc [70.36]	 Round Time [21.81s]
+2025-05-08 14:32:20,237 - FedFDA_Flow - INFO - Round [84/200]	 Selected 28 clients.
+2025-05-08 14:32:37,370 - FedFDA_Flow - INFO - Round [84/200]	 Client training completed. Avg Acc: 69.93, Avg Loss: 1.1443
+2025-05-08 14:32:37,585 - FedFDA_Flow - INFO - Round [84/200]	 Train Loss [1.1443]	 Train Acc [69.93]	 Round Time [17.35s]
+2025-05-08 14:32:37,585 - FedFDA_Flow - INFO - Round [85/200]	 Selected 22 clients.
+2025-05-08 14:32:51,082 - FedFDA_Flow - INFO - Round [85/200]	 Client training completed. Avg Acc: 69.04, Avg Loss: 1.1912
+2025-05-08 14:32:51,113 - FedFDA_Flow - INFO - Round [85/200]	 Train Loss [1.1912]	 Train Acc [69.04]	 Round Time [13.53s]
+2025-05-08 14:32:51,113 - FedFDA_Flow - INFO - Round [86/200]	 Selected 37 clients.
+2025-05-08 14:33:14,238 - FedFDA_Flow - INFO - Round [86/200]	 Client training completed. Avg Acc: 69.85, Avg Loss: 1.1516
+2025-05-08 14:33:14,630 - FedFDA_Flow - INFO - Round [86/200]	 Train Loss [1.1516]	 Train Acc [69.85]	 Round Time [23.52s]
+2025-05-08 14:33:14,630 - FedFDA_Flow - INFO - Round [87/200]	 Selected 26 clients.
+2025-05-08 14:33:30,468 - FedFDA_Flow - INFO - Round [87/200]	 Client training completed. Avg Acc: 69.98, Avg Loss: 1.1483
+2025-05-08 14:33:30,493 - FedFDA_Flow - INFO - Round [87/200]	 Train Loss [1.1483]	 Train Acc [69.98]	 Round Time [15.86s]
+2025-05-08 14:33:30,494 - FedFDA_Flow - INFO - Round [88/200]	 Selected 31 clients.
+2025-05-08 14:33:49,231 - FedFDA_Flow - INFO - Round [88/200]	 Client training completed. Avg Acc: 72.02, Avg Loss: 1.0668
+2025-05-08 14:33:49,579 - FedFDA_Flow - INFO - Round [88/200]	 Train Loss [1.0668]	 Train Acc [72.02]	 Round Time [19.09s]
+2025-05-08 14:33:49,579 - FedFDA_Flow - INFO - Round [89/200]	 Selected 31 clients.
+2025-05-08 14:34:09,434 - FedFDA_Flow - INFO - Round [89/200]	 Client training completed. Avg Acc: 73.34, Avg Loss: 1.0205
+2025-05-08 14:34:09,793 - FedFDA_Flow - INFO - Round [89/200]	 Train Loss [1.0205]	 Train Acc [73.34]	 Round Time [20.21s]
+2025-05-08 14:34:09,794 - FedFDA_Flow - INFO - Round [90/200]	 Selected 29 clients.
+2025-05-08 14:34:29,233 - FedFDA_Flow - INFO - Round [90/200]	 Client training completed. Avg Acc: 71.54, Avg Loss: 1.0703
+2025-05-08 14:34:29,332 - FedFDA_Flow - INFO - Round [90/200]	 Train Loss [1.0703]	 Train Acc [71.54]	 Round Time [19.54s]
+2025-05-08 14:34:29,332 - FedFDA_Flow - INFO - Round [91/200]	 Selected 30 clients.
+2025-05-08 14:34:48,884 - FedFDA_Flow - INFO - Round [91/200]	 Client training completed. Avg Acc: 74.24, Avg Loss: 0.9703
+2025-05-08 14:34:49,043 - FedFDA_Flow - INFO - Round [91/200]	 Train Loss [0.9703]	 Train Acc [74.24]	 Round Time [19.71s]
+2025-05-08 14:34:49,043 - FedFDA_Flow - INFO - Round [92/200]	 Selected 29 clients.
+2025-05-08 14:35:06,393 - FedFDA_Flow - INFO - Round [92/200]	 Client training completed. Avg Acc: 70.10, Avg Loss: 1.1577
+2025-05-08 14:35:06,482 - FedFDA_Flow - INFO - Round [92/200]	 Train Loss [1.1577]	 Train Acc [70.10]	 Round Time [17.44s]
+2025-05-08 14:35:06,483 - FedFDA_Flow - INFO - Round [93/200]	 Selected 40 clients.
+2025-05-08 14:35:31,254 - FedFDA_Flow - INFO - Round [93/200]	 Client training completed. Avg Acc: 72.48, Avg Loss: 1.0360
+2025-05-08 14:35:31,483 - FedFDA_Flow - INFO - Round [93/200]	 Train Loss [1.0360]	 Train Acc [72.48]	 Round Time [25.00s]
+2025-05-08 14:35:31,483 - FedFDA_Flow - INFO - Round [94/200]	 Selected 17 clients.
+2025-05-08 14:35:41,970 - FedFDA_Flow - INFO - Round [94/200]	 Client training completed. Avg Acc: 74.80, Avg Loss: 0.9780
+2025-05-08 14:35:42,052 - FedFDA_Flow - INFO - Round [94/200]	 Train Loss [0.9780]	 Train Acc [74.80]	 Round Time [10.57s]
+2025-05-08 14:35:42,052 - FedFDA_Flow - INFO - Round [95/200]	 Selected 26 clients.
+2025-05-08 14:35:58,449 - FedFDA_Flow - INFO - Round [95/200]	 Client training completed. Avg Acc: 74.52, Avg Loss: 0.9700
+2025-05-08 14:35:58,552 - FedFDA_Flow - INFO - Round [95/200]	 Train Loss [0.9700]	 Train Acc [74.52]	 Round Time [16.50s]
+2025-05-08 14:35:58,553 - FedFDA_Flow - INFO - Round [96/200]	 Selected 28 clients.
+2025-05-08 14:36:15,937 - FedFDA_Flow - INFO - Round [96/200]	 Client training completed. Avg Acc: 71.49, Avg Loss: 1.1133
+2025-05-08 14:36:16,012 - FedFDA_Flow - INFO - Round [96/200]	 Train Loss [1.1133]	 Train Acc [71.49]	 Round Time [17.46s]
+2025-05-08 14:36:16,012 - FedFDA_Flow - INFO - Round [97/200]	 Selected 30 clients.
+2025-05-08 14:36:35,288 - FedFDA_Flow - INFO - Round [97/200]	 Client training completed. Avg Acc: 71.30, Avg Loss: 1.1051
+2025-05-08 14:36:35,465 - FedFDA_Flow - INFO - Round [97/200]	 Train Loss [1.1051]	 Train Acc [71.30]	 Round Time [19.45s]
+2025-05-08 14:36:35,465 - FedFDA_Flow - INFO - Round [98/200]	 Selected 34 clients.
+2025-05-08 14:36:58,093 - FedFDA_Flow - INFO - Round [98/200]	 Client training completed. Avg Acc: 71.97, Avg Loss: 1.0574
+2025-05-08 14:36:58,183 - FedFDA_Flow - INFO - Round [98/200]	 Train Loss [1.0574]	 Train Acc [71.97]	 Round Time [22.72s]
+2025-05-08 14:36:58,183 - FedFDA_Flow - INFO - Round [99/200]	 Selected 33 clients.
+2025-05-08 14:37:19,807 - FedFDA_Flow - INFO - Round [99/200]	 Client training completed. Avg Acc: 76.03, Avg Loss: 0.8962
+2025-05-08 14:37:19,825 - FedFDA_Flow - INFO - Round [99/200]	 Train Loss [0.8962]	 Train Acc [76.03]	 Round Time [21.64s]
+2025-05-08 14:37:19,825 - FedFDA_Flow - INFO - Round [100/200]	 Selected 28 clients.
+2025-05-08 14:37:37,252 - FedFDA_Flow - INFO - Round [100/200]	 Client training completed. Avg Acc: 75.71, Avg Loss: 0.9094
+2025-05-08 14:37:37,267 - FedFDA_Flow - INFO - Starting personalized evaluation...
+2025-05-08 14:38:08,224 - FedFDA_Flow - INFO - Personalized Eval Completed. KL Div: 111.1718
+2025-05-08 14:38:08,224 - FedFDA_Flow - INFO - Corruption Category Results: Noise: 31.59, Blur: 34.10, Other: 27.73, Clean: 35.58
+2025-05-08 14:38:08,224 - FedFDA_Flow - INFO - Clients with potentially suboptimal beta values: 50
+2025-05-08 14:38:08,225 - FedFDA_Flow - INFO - Round [100/200]	 Train Loss [0.9094]	 Train Acc [75.71]	 Round Time [17.44s]	 P-Test Loss [3.5366]	 P-Test Acc [32.93 +/- 6.73]
+2025-05-08 14:38:08,225 - FedFDA_Flow - INFO - Round [101/200]	 Selected 39 clients.
+2025-05-08 14:38:33,283 - FedFDA_Flow - INFO - Round [101/200]	 Client training completed. Avg Acc: 70.40, Avg Loss: 1.1421
+2025-05-08 14:38:33,511 - FedFDA_Flow - INFO - Round [101/200]	 Train Loss [1.1421]	 Train Acc [70.40]	 Round Time [25.29s]
+2025-05-08 14:38:33,512 - FedFDA_Flow - INFO - Round [102/200]	 Selected 26 clients.
+2025-05-08 14:38:50,247 - FedFDA_Flow - INFO - Round [102/200]	 Client training completed. Avg Acc: 71.43, Avg Loss: 1.1010
+2025-05-08 14:38:50,389 - FedFDA_Flow - INFO - Round [102/200]	 Train Loss [1.1010]	 Train Acc [71.43]	 Round Time [16.88s]
+2025-05-08 14:38:50,389 - FedFDA_Flow - INFO - Round [103/200]	 Selected 29 clients.
+2025-05-08 14:39:07,915 - FedFDA_Flow - INFO - Round [103/200]	 Client training completed. Avg Acc: 74.54, Avg Loss: 0.9653
+2025-05-08 14:39:08,072 - FedFDA_Flow - INFO - Round [103/200]	 Train Loss [0.9653]	 Train Acc [74.54]	 Round Time [17.68s]
+2025-05-08 14:39:08,073 - FedFDA_Flow - INFO - Round [104/200]	 Selected 35 clients.
+2025-05-08 14:39:31,071 - FedFDA_Flow - INFO - Round [104/200]	 Client training completed. Avg Acc: 73.45, Avg Loss: 0.9934
+2025-05-08 14:39:31,157 - FedFDA_Flow - INFO - Round [104/200]	 Train Loss [0.9934]	 Train Acc [73.45]	 Round Time [23.08s]
+2025-05-08 14:39:31,157 - FedFDA_Flow - INFO - Round [105/200]	 Selected 35 clients.
+2025-05-08 14:39:56,259 - FedFDA_Flow - INFO - Round [105/200]	 Client training completed. Avg Acc: 74.41, Avg Loss: 0.9879
+2025-05-08 14:39:56,276 - FedFDA_Flow - INFO - Round [105/200]	 Train Loss [0.9879]	 Train Acc [74.41]	 Round Time [25.12s]
+2025-05-08 14:39:56,276 - FedFDA_Flow - INFO - Round [106/200]	 Selected 22 clients.
+2025-05-08 14:40:10,533 - FedFDA_Flow - INFO - Round [106/200]	 Client training completed. Avg Acc: 70.64, Avg Loss: 1.1561
+2025-05-08 14:40:10,547 - FedFDA_Flow - INFO - Round [106/200]	 Train Loss [1.1561]	 Train Acc [70.64]	 Round Time [14.27s]
+2025-05-08 14:40:10,548 - FedFDA_Flow - INFO - Round [107/200]	 Selected 32 clients.
+2025-05-08 14:40:30,253 - FedFDA_Flow - INFO - Round [107/200]	 Client training completed. Avg Acc: 75.43, Avg Loss: 0.9169
+2025-05-08 14:40:30,338 - FedFDA_Flow - INFO - Round [107/200]	 Train Loss [0.9169]	 Train Acc [75.43]	 Round Time [19.79s]
+2025-05-08 14:40:30,339 - FedFDA_Flow - INFO - Round [108/200]	 Selected 26 clients.
+2025-05-08 14:40:46,597 - FedFDA_Flow - INFO - Round [108/200]	 Client training completed. Avg Acc: 73.47, Avg Loss: 1.0321
+2025-05-08 14:40:46,683 - FedFDA_Flow - INFO - Round [108/200]	 Train Loss [1.0321]	 Train Acc [73.47]	 Round Time [16.34s]
+2025-05-08 14:40:46,683 - FedFDA_Flow - INFO - Round [109/200]	 Selected 31 clients.
+2025-05-08 14:41:05,910 - FedFDA_Flow - INFO - Round [109/200]	 Client training completed. Avg Acc: 72.96, Avg Loss: 1.0328
+2025-05-08 14:41:06,006 - FedFDA_Flow - INFO - Round [109/200]	 Train Loss [1.0328]	 Train Acc [72.96]	 Round Time [19.32s]
+2025-05-08 14:41:06,006 - FedFDA_Flow - INFO - Round [110/200]	 Selected 28 clients.
+2025-05-08 14:41:22,481 - FedFDA_Flow - INFO - Round [110/200]	 Client training completed. Avg Acc: 75.60, Avg Loss: 0.9524
+2025-05-08 14:41:22,646 - FedFDA_Flow - INFO - Round [110/200]	 Train Loss [0.9524]	 Train Acc [75.60]	 Round Time [16.64s]
+2025-05-08 14:41:22,647 - FedFDA_Flow - INFO - Round [111/200]	 Selected 33 clients.
+2025-05-08 14:41:42,260 - FedFDA_Flow - INFO - Round [111/200]	 Client training completed. Avg Acc: 72.61, Avg Loss: 1.0355
+2025-05-08 14:41:42,345 - FedFDA_Flow - INFO - Round [111/200]	 Train Loss [1.0355]	 Train Acc [72.61]	 Round Time [19.70s]
+2025-05-08 14:41:42,346 - FedFDA_Flow - INFO - Round [112/200]	 Selected 36 clients.
+2025-05-08 14:42:04,770 - FedFDA_Flow - INFO - Round [112/200]	 Client training completed. Avg Acc: 70.73, Avg Loss: 1.1221
+2025-05-08 14:42:04,852 - FedFDA_Flow - INFO - Round [112/200]	 Train Loss [1.1221]	 Train Acc [70.73]	 Round Time [22.51s]
+2025-05-08 14:42:04,853 - FedFDA_Flow - INFO - Round [113/200]	 Selected 29 clients.
+2025-05-08 14:42:23,219 - FedFDA_Flow - INFO - Round [113/200]	 Client training completed. Avg Acc: 70.83, Avg Loss: 1.1287
+2025-05-08 14:42:23,314 - FedFDA_Flow - INFO - Round [113/200]	 Train Loss [1.1287]	 Train Acc [70.83]	 Round Time [18.46s]
+2025-05-08 14:42:23,315 - FedFDA_Flow - INFO - Round [114/200]	 Selected 36 clients.
+2025-05-08 14:42:46,099 - FedFDA_Flow - INFO - Round [114/200]	 Client training completed. Avg Acc: 72.23, Avg Loss: 1.0614
+2025-05-08 14:42:46,119 - FedFDA_Flow - INFO - Round [114/200]	 Train Loss [1.0614]	 Train Acc [72.23]	 Round Time [22.80s]
+2025-05-08 14:42:46,120 - FedFDA_Flow - INFO - Round [115/200]	 Selected 29 clients.
+2025-05-08 14:43:03,197 - FedFDA_Flow - INFO - Round [115/200]	 Client training completed. Avg Acc: 74.28, Avg Loss: 0.9678
+2025-05-08 14:43:03,214 - FedFDA_Flow - INFO - Round [115/200]	 Train Loss [0.9678]	 Train Acc [74.28]	 Round Time [17.09s]
+2025-05-08 14:43:03,214 - FedFDA_Flow - INFO - Round [116/200]	 Selected 36 clients.
+2025-05-08 14:43:24,926 - FedFDA_Flow - INFO - Round [116/200]	 Client training completed. Avg Acc: 70.77, Avg Loss: 1.1139
+2025-05-08 14:43:25,072 - FedFDA_Flow - INFO - Round [116/200]	 Train Loss [1.1139]	 Train Acc [70.77]	 Round Time [21.86s]
+2025-05-08 14:43:25,072 - FedFDA_Flow - INFO - Round [117/200]	 Selected 22 clients.
+2025-05-08 14:43:38,774 - FedFDA_Flow - INFO - Round [117/200]	 Client training completed. Avg Acc: 75.03, Avg Loss: 0.9319
+2025-05-08 14:43:38,863 - FedFDA_Flow - INFO - Round [117/200]	 Train Loss [0.9319]	 Train Acc [75.03]	 Round Time [13.79s]
+2025-05-08 14:43:38,864 - FedFDA_Flow - INFO - Round [118/200]	 Selected 32 clients.
+2025-05-08 14:43:58,128 - FedFDA_Flow - INFO - Round [118/200]	 Client training completed. Avg Acc: 71.43, Avg Loss: 1.0943
+2025-05-08 14:43:58,218 - FedFDA_Flow - INFO - Round [118/200]	 Train Loss [1.0943]	 Train Acc [71.43]	 Round Time [19.35s]
+2025-05-08 14:43:58,219 - FedFDA_Flow - INFO - Round [119/200]	 Selected 24 clients.
+2025-05-08 14:44:12,811 - FedFDA_Flow - INFO - Round [119/200]	 Client training completed. Avg Acc: 74.55, Avg Loss: 0.9626
+2025-05-08 14:44:12,897 - FedFDA_Flow - INFO - Round [119/200]	 Train Loss [0.9626]	 Train Acc [74.55]	 Round Time [14.68s]
+2025-05-08 14:44:12,897 - FedFDA_Flow - INFO - Round [120/200]	 Selected 30 clients.
+2025-05-08 14:44:31,453 - FedFDA_Flow - INFO - Round [120/200]	 Client training completed. Avg Acc: 72.52, Avg Loss: 1.0521
+2025-05-08 14:44:31,551 - FedFDA_Flow - INFO - Starting personalized evaluation...
+2025-05-08 14:45:02,904 - FedFDA_Flow - INFO - Personalized Eval Completed. KL Div: 108.2432
+2025-05-08 14:45:02,904 - FedFDA_Flow - INFO - Corruption Category Results: Noise: 31.51, Blur: 36.00, Other: 29.06, Clean: 35.02
+2025-05-08 14:45:02,904 - FedFDA_Flow - INFO - Clients with potentially suboptimal beta values: 50
+2025-05-08 14:45:02,905 - FedFDA_Flow - INFO - Round [120/200]	 Train Loss [1.0521]	 Train Acc [72.52]	 Round Time [18.65s]	 P-Test Loss [3.5335]	 P-Test Acc [33.16 +/- 6.36]
+2025-05-08 14:45:02,905 - FedFDA_Flow - INFO - Round [121/200]	 Selected 29 clients.
+2025-05-08 14:45:21,140 - FedFDA_Flow - INFO - Round [121/200]	 Client training completed. Avg Acc: 73.42, Avg Loss: 0.9989
+2025-05-08 14:45:21,171 - FedFDA_Flow - INFO - Round [121/200]	 Train Loss [0.9989]	 Train Acc [73.42]	 Round Time [18.27s]
+2025-05-08 14:45:21,171 - FedFDA_Flow - INFO - Round [122/200]	 Selected 29 clients.
+2025-05-08 14:45:39,233 - FedFDA_Flow - INFO - Round [122/200]	 Client training completed. Avg Acc: 72.15, Avg Loss: 1.0681
+2025-05-08 14:45:39,427 - FedFDA_Flow - INFO - Round [122/200]	 Train Loss [1.0681]	 Train Acc [72.15]	 Round Time [18.26s]
+2025-05-08 14:45:39,427 - FedFDA_Flow - INFO - Round [123/200]	 Selected 34 clients.
+2025-05-08 14:46:00,741 - FedFDA_Flow - INFO - Round [123/200]	 Client training completed. Avg Acc: 75.37, Avg Loss: 0.9365
+2025-05-08 14:46:00,792 - FedFDA_Flow - INFO - Round [123/200]	 Train Loss [0.9365]	 Train Acc [75.37]	 Round Time [21.37s]
+2025-05-08 14:46:00,793 - FedFDA_Flow - INFO - Round [124/200]	 Selected 32 clients.
+2025-05-08 14:46:21,522 - FedFDA_Flow - INFO - Round [124/200]	 Client training completed. Avg Acc: 75.36, Avg Loss: 0.9326
+2025-05-08 14:46:21,621 - FedFDA_Flow - INFO - Round [124/200]	 Train Loss [0.9326]	 Train Acc [75.36]	 Round Time [20.83s]
+2025-05-08 14:46:21,629 - FedFDA_Flow - INFO - Round [125/200]	 Selected 27 clients.
+2025-05-08 14:46:38,760 - FedFDA_Flow - INFO - Round [125/200]	 Client training completed. Avg Acc: 77.42, Avg Loss: 0.8523
+2025-05-08 14:46:38,863 - FedFDA_Flow - INFO - Round [125/200]	 Train Loss [0.8523]	 Train Acc [77.42]	 Round Time [17.24s]
+2025-05-08 14:46:38,864 - FedFDA_Flow - INFO - Round [126/200]	 Selected 25 clients.
+2025-05-08 14:46:54,794 - FedFDA_Flow - INFO - Round [126/200]	 Client training completed. Avg Acc: 75.02, Avg Loss: 0.9583
+2025-05-08 14:46:54,883 - FedFDA_Flow - INFO - Round [126/200]	 Train Loss [0.9583]	 Train Acc [75.02]	 Round Time [16.02s]
+2025-05-08 14:46:54,883 - FedFDA_Flow - INFO - Round [127/200]	 Selected 32 clients.
+2025-05-08 14:47:14,986 - FedFDA_Flow - INFO - Round [127/200]	 Client training completed. Avg Acc: 72.59, Avg Loss: 1.0591
+2025-05-08 14:47:15,078 - FedFDA_Flow - INFO - Round [127/200]	 Train Loss [1.0591]	 Train Acc [72.59]	 Round Time [20.19s]
+2025-05-08 14:47:15,079 - FedFDA_Flow - INFO - Round [128/200]	 Selected 29 clients.
+2025-05-08 14:47:33,054 - FedFDA_Flow - INFO - Round [128/200]	 Client training completed. Avg Acc: 76.76, Avg Loss: 0.8632
+2025-05-08 14:47:33,427 - FedFDA_Flow - INFO - Round [128/200]	 Train Loss [0.8632]	 Train Acc [76.76]	 Round Time [18.35s]
+2025-05-08 14:47:33,428 - FedFDA_Flow - INFO - Round [129/200]	 Selected 18 clients.
+2025-05-08 14:47:44,934 - FedFDA_Flow - INFO - Round [129/200]	 Client training completed. Avg Acc: 78.01, Avg Loss: 0.8274
+2025-05-08 14:47:45,224 - FedFDA_Flow - INFO - Round [129/200]	 Train Loss [0.8274]	 Train Acc [78.01]	 Round Time [11.80s]
+2025-05-08 14:47:45,224 - FedFDA_Flow - INFO - Round [130/200]	 Selected 29 clients.
+2025-05-08 14:48:04,934 - FedFDA_Flow - INFO - Round [130/200]	 Client training completed. Avg Acc: 71.97, Avg Loss: 1.0681
+2025-05-08 14:48:05,023 - FedFDA_Flow - INFO - Round [130/200]	 Train Loss [1.0681]	 Train Acc [71.97]	 Round Time [19.80s]
+2025-05-08 14:48:05,024 - FedFDA_Flow - INFO - Round [131/200]	 Selected 23 clients.
+2025-05-08 14:48:18,738 - FedFDA_Flow - INFO - Round [131/200]	 Client training completed. Avg Acc: 75.87, Avg Loss: 0.9284
+2025-05-08 14:48:18,823 - FedFDA_Flow - INFO - Round [131/200]	 Train Loss [0.9284]	 Train Acc [75.87]	 Round Time [13.80s]
+2025-05-08 14:48:18,823 - FedFDA_Flow - INFO - Round [132/200]	 Selected 25 clients.
+2025-05-08 14:48:33,218 - FedFDA_Flow - INFO - Round [132/200]	 Client training completed. Avg Acc: 70.92, Avg Loss: 1.1248
+2025-05-08 14:48:33,304 - FedFDA_Flow - INFO - Round [132/200]	 Train Loss [1.1248]	 Train Acc [70.92]	 Round Time [14.48s]
+2025-05-08 14:48:33,304 - FedFDA_Flow - INFO - Round [133/200]	 Selected 34 clients.
+2025-05-08 14:48:53,524 - FedFDA_Flow - INFO - Round [133/200]	 Client training completed. Avg Acc: 74.60, Avg Loss: 0.9714
+2025-05-08 14:48:53,612 - FedFDA_Flow - INFO - Round [133/200]	 Train Loss [0.9714]	 Train Acc [74.60]	 Round Time [20.31s]
+2025-05-08 14:48:53,612 - FedFDA_Flow - INFO - Round [134/200]	 Selected 33 clients.
+2025-05-08 14:49:15,672 - FedFDA_Flow - INFO - Round [134/200]	 Client training completed. Avg Acc: 73.00, Avg Loss: 1.0431
+2025-05-08 14:49:15,689 - FedFDA_Flow - INFO - Round [134/200]	 Train Loss [1.0431]	 Train Acc [73.00]	 Round Time [22.08s]
+2025-05-08 14:49:15,690 - FedFDA_Flow - INFO - Round [135/200]	 Selected 34 clients.
+2025-05-08 14:49:36,963 - FedFDA_Flow - INFO - Round [135/200]	 Client training completed. Avg Acc: 73.82, Avg Loss: 1.0073
+2025-05-08 14:49:37,041 - FedFDA_Flow - INFO - Round [135/200]	 Train Loss [1.0073]	 Train Acc [73.82]	 Round Time [21.35s]
+2025-05-08 14:49:37,042 - FedFDA_Flow - INFO - Round [136/200]	 Selected 36 clients.
+2025-05-08 14:49:56,992 - FedFDA_Flow - INFO - Round [136/200]	 Client training completed. Avg Acc: 71.81, Avg Loss: 1.0819
+2025-05-08 14:49:57,010 - FedFDA_Flow - INFO - Round [136/200]	 Train Loss [1.0819]	 Train Acc [71.81]	 Round Time [19.97s]
+2025-05-08 14:49:57,010 - FedFDA_Flow - INFO - Round [137/200]	 Selected 36 clients.
+2025-05-08 14:50:18,050 - FedFDA_Flow - INFO - Round [137/200]	 Client training completed. Avg Acc: 72.85, Avg Loss: 1.0259
+2025-05-08 14:50:18,181 - FedFDA_Flow - INFO - Round [137/200]	 Train Loss [1.0259]	 Train Acc [72.85]	 Round Time [21.17s]
+2025-05-08 14:50:18,181 - FedFDA_Flow - INFO - Round [138/200]	 Selected 22 clients.
+2025-05-08 14:50:31,337 - FedFDA_Flow - INFO - Round [138/200]	 Client training completed. Avg Acc: 74.42, Avg Loss: 0.9708
+2025-05-08 14:50:31,360 - FedFDA_Flow - INFO - Round [138/200]	 Train Loss [0.9708]	 Train Acc [74.42]	 Round Time [13.18s]
+2025-05-08 14:50:31,360 - FedFDA_Flow - INFO - Round [139/200]	 Selected 32 clients.
+2025-05-08 14:50:51,526 - FedFDA_Flow - INFO - Round [139/200]	 Client training completed. Avg Acc: 74.75, Avg Loss: 0.9501
+2025-05-08 14:50:51,552 - FedFDA_Flow - INFO - Round [139/200]	 Train Loss [0.9501]	 Train Acc [74.75]	 Round Time [20.19s]
+2025-05-08 14:50:51,552 - FedFDA_Flow - INFO - Round [140/200]	 Selected 34 clients.
+2025-05-08 14:51:10,940 - FedFDA_Flow - INFO - Round [140/200]	 Client training completed. Avg Acc: 74.42, Avg Loss: 0.9602
+2025-05-08 14:51:11,023 - FedFDA_Flow - INFO - Starting personalized evaluation...
+2025-05-08 14:51:41,094 - FedFDA_Flow - INFO - Personalized Eval Completed. KL Div: 105.7070
+2025-05-08 14:51:41,094 - FedFDA_Flow - INFO - Corruption Category Results: Noise: 32.51, Blur: 36.56, Other: 29.10, Clean: 36.30
+2025-05-08 14:51:41,094 - FedFDA_Flow - INFO - Clients with potentially suboptimal beta values: 50
+2025-05-08 14:51:41,095 - FedFDA_Flow - INFO - Round [140/200]	 Train Loss [0.9602]	 Train Acc [74.42]	 Round Time [19.47s]	 P-Test Loss [3.4570]	 P-Test Acc [33.99 +/- 6.66]
+2025-05-08 14:51:41,095 - FedFDA_Flow - INFO - Round [141/200]	 Selected 26 clients.
+2025-05-08 14:51:56,155 - FedFDA_Flow - INFO - Round [141/200]	 Client training completed. Avg Acc: 75.22, Avg Loss: 0.9402
+2025-05-08 14:51:56,180 - FedFDA_Flow - INFO - Round [141/200]	 Train Loss [0.9402]	 Train Acc [75.22]	 Round Time [15.09s]
+2025-05-08 14:51:56,181 - FedFDA_Flow - INFO - Round [142/200]	 Selected 19 clients.
+2025-05-08 14:52:07,028 - FedFDA_Flow - INFO - Round [142/200]	 Client training completed. Avg Acc: 76.91, Avg Loss: 0.8660
+2025-05-08 14:52:07,050 - FedFDA_Flow - INFO - Round [142/200]	 Train Loss [0.8660]	 Train Acc [76.91]	 Round Time [10.87s]
+2025-05-08 14:52:07,050 - FedFDA_Flow - INFO - Round [143/200]	 Selected 26 clients.
+2025-05-08 14:52:22,081 - FedFDA_Flow - INFO - Round [143/200]	 Client training completed. Avg Acc: 76.74, Avg Loss: 0.8757
+2025-05-08 14:52:22,114 - FedFDA_Flow - INFO - Round [143/200]	 Train Loss [0.8757]	 Train Acc [76.74]	 Round Time [15.06s]
+2025-05-08 14:52:22,115 - FedFDA_Flow - INFO - Round [144/200]	 Selected 29 clients.
+2025-05-08 14:52:38,274 - FedFDA_Flow - INFO - Round [144/200]	 Client training completed. Avg Acc: 72.28, Avg Loss: 1.0611
+2025-05-08 14:52:38,301 - FedFDA_Flow - INFO - Round [144/200]	 Train Loss [1.0611]	 Train Acc [72.28]	 Round Time [16.19s]
+2025-05-08 14:52:38,301 - FedFDA_Flow - INFO - Round [145/200]	 Selected 24 clients.
+2025-05-08 14:52:53,169 - FedFDA_Flow - INFO - Round [145/200]	 Client training completed. Avg Acc: 76.60, Avg Loss: 0.8969
+2025-05-08 14:52:53,254 - FedFDA_Flow - INFO - Round [145/200]	 Train Loss [0.8969]	 Train Acc [76.60]	 Round Time [14.95s]
+2025-05-08 14:52:53,255 - FedFDA_Flow - INFO - Round [146/200]	 Selected 28 clients.
+2025-05-08 14:53:09,370 - FedFDA_Flow - INFO - Round [146/200]	 Client training completed. Avg Acc: 73.28, Avg Loss: 0.9989
+2025-05-08 14:53:09,582 - FedFDA_Flow - INFO - Round [146/200]	 Train Loss [0.9989]	 Train Acc [73.28]	 Round Time [16.33s]
+2025-05-08 14:53:09,582 - FedFDA_Flow - INFO - Round [147/200]	 Selected 25 clients.
+2025-05-08 14:53:24,838 - FedFDA_Flow - INFO - Round [147/200]	 Client training completed. Avg Acc: 76.01, Avg Loss: 0.8978
+2025-05-08 14:53:24,920 - FedFDA_Flow - INFO - Round [147/200]	 Train Loss [0.8978]	 Train Acc [76.01]	 Round Time [15.34s]
+2025-05-08 14:53:24,920 - FedFDA_Flow - INFO - Round [148/200]	 Selected 26 clients.
+2025-05-08 14:53:39,385 - FedFDA_Flow - INFO - Round [148/200]	 Client training completed. Avg Acc: 75.13, Avg Loss: 0.9534
+2025-05-08 14:53:39,400 - FedFDA_Flow - INFO - Round [148/200]	 Train Loss [0.9534]	 Train Acc [75.13]	 Round Time [14.48s]
+2025-05-08 14:53:39,400 - FedFDA_Flow - INFO - Round [149/200]	 Selected 30 clients.
+2025-05-08 14:53:56,765 - FedFDA_Flow - INFO - Round [149/200]	 Client training completed. Avg Acc: 73.00, Avg Loss: 1.0279
+2025-05-08 14:53:56,789 - FedFDA_Flow - INFO - Round [149/200]	 Train Loss [1.0279]	 Train Acc [73.00]	 Round Time [17.39s]
+2025-05-08 14:53:56,790 - FedFDA_Flow - INFO - Round [150/200]	 Selected 33 clients.
+2025-05-08 14:54:15,519 - FedFDA_Flow - INFO - Round [150/200]	 Client training completed. Avg Acc: 74.05, Avg Loss: 0.9694
+2025-05-08 14:54:15,549 - FedFDA_Flow - INFO - Round [150/200]	 Train Loss [0.9694]	 Train Acc [74.05]	 Round Time [18.76s]
+2025-05-08 14:54:15,550 - FedFDA_Flow - INFO - Round [151/200]	 Selected 29 clients.
+2025-05-08 14:54:32,756 - FedFDA_Flow - INFO - Round [151/200]	 Client training completed. Avg Acc: 74.42, Avg Loss: 0.9606
+2025-05-08 14:54:32,848 - FedFDA_Flow - INFO - Round [151/200]	 Train Loss [0.9606]	 Train Acc [74.42]	 Round Time [17.30s]
+2025-05-08 14:54:32,848 - FedFDA_Flow - INFO - Round [152/200]	 Selected 35 clients.
+2025-05-08 14:54:53,462 - FedFDA_Flow - INFO - Round [152/200]	 Client training completed. Avg Acc: 72.14, Avg Loss: 1.0761
+2025-05-08 14:54:53,639 - FedFDA_Flow - INFO - Round [152/200]	 Train Loss [1.0761]	 Train Acc [72.14]	 Round Time [20.79s]
+2025-05-08 14:54:53,639 - FedFDA_Flow - INFO - Round [153/200]	 Selected 28 clients.
+2025-05-08 14:55:09,979 - FedFDA_Flow - INFO - Round [153/200]	 Client training completed. Avg Acc: 71.34, Avg Loss: 1.1162
+2025-05-08 14:55:10,066 - FedFDA_Flow - INFO - Round [153/200]	 Train Loss [1.1162]	 Train Acc [71.34]	 Round Time [16.43s]
+2025-05-08 14:55:10,066 - FedFDA_Flow - INFO - Round [154/200]	 Selected 22 clients.
+2025-05-08 14:55:23,721 - FedFDA_Flow - INFO - Round [154/200]	 Client training completed. Avg Acc: 74.71, Avg Loss: 0.9766
+2025-05-08 14:55:23,769 - FedFDA_Flow - INFO - Round [154/200]	 Train Loss [0.9766]	 Train Acc [74.71]	 Round Time [13.70s]
+2025-05-08 14:55:23,769 - FedFDA_Flow - INFO - Round [155/200]	 Selected 40 clients.
+2025-05-08 14:55:47,058 - FedFDA_Flow - INFO - Round [155/200]	 Client training completed. Avg Acc: 75.26, Avg Loss: 0.9373
+2025-05-08 14:55:47,145 - FedFDA_Flow - INFO - Round [155/200]	 Train Loss [0.9373]	 Train Acc [75.26]	 Round Time [23.38s]
+2025-05-08 14:55:47,145 - FedFDA_Flow - INFO - Round [156/200]	 Selected 31 clients.
+2025-05-08 14:56:05,453 - FedFDA_Flow - INFO - Round [156/200]	 Client training completed. Avg Acc: 75.78, Avg Loss: 0.9226
+2025-05-08 14:56:05,483 - FedFDA_Flow - INFO - Round [156/200]	 Train Loss [0.9226]	 Train Acc [75.78]	 Round Time [18.34s]
+2025-05-08 14:56:05,483 - FedFDA_Flow - INFO - Round [157/200]	 Selected 33 clients.
+2025-05-08 14:56:24,904 - FedFDA_Flow - INFO - Round [157/200]	 Client training completed. Avg Acc: 76.92, Avg Loss: 0.8850
+2025-05-08 14:56:24,963 - FedFDA_Flow - INFO - Round [157/200]	 Train Loss [0.8850]	 Train Acc [76.92]	 Round Time [19.48s]
+2025-05-08 14:56:24,963 - FedFDA_Flow - INFO - Round [158/200]	 Selected 29 clients.
+2025-05-08 14:56:41,097 - FedFDA_Flow - INFO - Round [158/200]	 Client training completed. Avg Acc: 75.85, Avg Loss: 0.8992
+2025-05-08 14:56:41,187 - FedFDA_Flow - INFO - Round [158/200]	 Train Loss [0.8992]	 Train Acc [75.85]	 Round Time [16.22s]
+2025-05-08 14:56:41,187 - FedFDA_Flow - INFO - Round [159/200]	 Selected 28 clients.
+2025-05-08 14:56:58,114 - FedFDA_Flow - INFO - Round [159/200]	 Client training completed. Avg Acc: 78.06, Avg Loss: 0.8205
+2025-05-08 14:56:58,193 - FedFDA_Flow - INFO - Round [159/200]	 Train Loss [0.8205]	 Train Acc [78.06]	 Round Time [17.01s]
+2025-05-08 14:56:58,194 - FedFDA_Flow - INFO - Round [160/200]	 Selected 32 clients.
+2025-05-08 14:57:17,368 - FedFDA_Flow - INFO - Round [160/200]	 Client training completed. Avg Acc: 72.71, Avg Loss: 1.0519
+2025-05-08 14:57:17,462 - FedFDA_Flow - INFO - Starting personalized evaluation...
+2025-05-08 14:57:47,167 - FedFDA_Flow - INFO - Personalized Eval Completed. KL Div: 102.3553
+2025-05-08 14:57:47,167 - FedFDA_Flow - INFO - Corruption Category Results: Noise: 32.65, Blur: 35.81, Other: 29.46, Clean: 36.28
+2025-05-08 14:57:47,167 - FedFDA_Flow - INFO - Clients with potentially suboptimal beta values: 50
+2025-05-08 14:57:47,168 - FedFDA_Flow - INFO - Round [160/200]	 Train Loss [1.0519]	 Train Acc [72.71]	 Round Time [19.27s]	 P-Test Loss [3.4752]	 P-Test Acc [34.05 +/- 6.49]
+2025-05-08 14:57:47,168 - FedFDA_Flow - INFO - Round [161/200]	 Selected 29 clients.
+2025-05-08 14:58:05,788 - FedFDA_Flow - INFO - Round [161/200]	 Client training completed. Avg Acc: 76.31, Avg Loss: 0.9145
+2025-05-08 14:58:05,946 - FedFDA_Flow - INFO - Round [161/200]	 Train Loss [0.9145]	 Train Acc [76.31]	 Round Time [18.78s]
+2025-05-08 14:58:05,946 - FedFDA_Flow - INFO - Round [162/200]	 Selected 29 clients.
+2025-05-08 14:58:25,429 - FedFDA_Flow - INFO - Round [162/200]	 Client training completed. Avg Acc: 79.26, Avg Loss: 0.7698
+2025-05-08 14:58:25,521 - FedFDA_Flow - INFO - Round [162/200]	 Train Loss [0.7698]	 Train Acc [79.26]	 Round Time [19.58s]
+2025-05-08 14:58:25,522 - FedFDA_Flow - INFO - Round [163/200]	 Selected 28 clients.
+2025-05-08 14:58:43,203 - FedFDA_Flow - INFO - Round [163/200]	 Client training completed. Avg Acc: 78.41, Avg Loss: 0.8044
+2025-05-08 14:58:43,349 - FedFDA_Flow - INFO - Round [163/200]	 Train Loss [0.8044]	 Train Acc [78.41]	 Round Time [17.83s]
+2025-05-08 14:58:43,350 - FedFDA_Flow - INFO - Round [164/200]	 Selected 27 clients.
+2025-05-08 14:58:59,020 - FedFDA_Flow - INFO - Round [164/200]	 Client training completed. Avg Acc: 78.08, Avg Loss: 0.8347
+2025-05-08 14:58:59,108 - FedFDA_Flow - INFO - Round [164/200]	 Train Loss [0.8347]	 Train Acc [78.08]	 Round Time [15.76s]
+2025-05-08 14:58:59,109 - FedFDA_Flow - INFO - Round [165/200]	 Selected 27 clients.
+2025-05-08 14:59:14,298 - FedFDA_Flow - INFO - Round [165/200]	 Client training completed. Avg Acc: 74.54, Avg Loss: 0.9936
+2025-05-08 14:59:14,389 - FedFDA_Flow - INFO - Round [165/200]	 Train Loss [0.9936]	 Train Acc [74.54]	 Round Time [15.28s]
+2025-05-08 14:59:14,389 - FedFDA_Flow - INFO - Round [166/200]	 Selected 28 clients.
+2025-05-08 14:59:31,479 - FedFDA_Flow - INFO - Round [166/200]	 Client training completed. Avg Acc: 74.17, Avg Loss: 0.9874
+2025-05-08 14:59:31,496 - FedFDA_Flow - INFO - Round [166/200]	 Train Loss [0.9874]	 Train Acc [74.17]	 Round Time [17.11s]
+2025-05-08 14:59:31,496 - FedFDA_Flow - INFO - Round [167/200]	 Selected 24 clients.
+2025-05-08 14:59:45,686 - FedFDA_Flow - INFO - Round [167/200]	 Client training completed. Avg Acc: 76.59, Avg Loss: 0.8949
+2025-05-08 14:59:45,796 - FedFDA_Flow - INFO - Round [167/200]	 Train Loss [0.8949]	 Train Acc [76.59]	 Round Time [14.30s]
+2025-05-08 14:59:45,796 - FedFDA_Flow - INFO - Round [168/200]	 Selected 33 clients.
+2025-05-08 15:00:05,575 - FedFDA_Flow - INFO - Round [168/200]	 Client training completed. Avg Acc: 74.07, Avg Loss: 0.9746
+2025-05-08 15:00:05,697 - FedFDA_Flow - INFO - Round [168/200]	 Train Loss [0.9746]	 Train Acc [74.07]	 Round Time [19.90s]
+2025-05-08 15:00:05,698 - FedFDA_Flow - INFO - Round [169/200]	 Selected 32 clients.
+2025-05-08 15:00:24,397 - FedFDA_Flow - INFO - Round [169/200]	 Client training completed. Avg Acc: 73.36, Avg Loss: 0.9993
+2025-05-08 15:00:24,491 - FedFDA_Flow - INFO - Round [169/200]	 Train Loss [0.9993]	 Train Acc [73.36]	 Round Time [18.79s]
+2025-05-08 15:00:24,491 - FedFDA_Flow - INFO - Round [170/200]	 Selected 27 clients.
+2025-05-08 15:00:40,566 - FedFDA_Flow - INFO - Round [170/200]	 Client training completed. Avg Acc: 76.47, Avg Loss: 0.8773
+2025-05-08 15:00:40,654 - FedFDA_Flow - INFO - Round [170/200]	 Train Loss [0.8773]	 Train Acc [76.47]	 Round Time [16.16s]
+2025-05-08 15:00:40,655 - FedFDA_Flow - INFO - Round [171/200]	 Selected 38 clients.
+2025-05-08 15:01:02,326 - FedFDA_Flow - INFO - Round [171/200]	 Client training completed. Avg Acc: 76.61, Avg Loss: 0.9006
+2025-05-08 15:01:02,407 - FedFDA_Flow - INFO - Round [171/200]	 Train Loss [0.9006]	 Train Acc [76.61]	 Round Time [21.75s]
+2025-05-08 15:01:02,408 - FedFDA_Flow - INFO - Round [172/200]	 Selected 32 clients.
+2025-05-08 15:01:19,894 - FedFDA_Flow - INFO - Round [172/200]	 Client training completed. Avg Acc: 76.01, Avg Loss: 0.9168
+2025-05-08 15:01:19,972 - FedFDA_Flow - INFO - Round [172/200]	 Train Loss [0.9168]	 Train Acc [76.01]	 Round Time [17.56s]
+2025-05-08 15:01:19,972 - FedFDA_Flow - INFO - Round [173/200]	 Selected 30 clients.
+2025-05-08 15:01:37,184 - FedFDA_Flow - INFO - Round [173/200]	 Client training completed. Avg Acc: 80.01, Avg Loss: 0.7589
+2025-05-08 15:01:37,344 - FedFDA_Flow - INFO - Round [173/200]	 Train Loss [0.7589]	 Train Acc [80.01]	 Round Time [17.37s]
+2025-05-08 15:01:37,344 - FedFDA_Flow - INFO - Round [174/200]	 Selected 28 clients.
+2025-05-08 15:01:53,141 - FedFDA_Flow - INFO - Round [174/200]	 Client training completed. Avg Acc: 76.09, Avg Loss: 0.9022
+2025-05-08 15:01:53,227 - FedFDA_Flow - INFO - Round [174/200]	 Train Loss [0.9022]	 Train Acc [76.09]	 Round Time [15.88s]
+2025-05-08 15:01:53,228 - FedFDA_Flow - INFO - Round [175/200]	 Selected 27 clients.
+2025-05-08 15:02:08,237 - FedFDA_Flow - INFO - Round [175/200]	 Client training completed. Avg Acc: 77.00, Avg Loss: 0.8825
+2025-05-08 15:02:08,328 - FedFDA_Flow - INFO - Round [175/200]	 Train Loss [0.8825]	 Train Acc [77.00]	 Round Time [15.10s]
+2025-05-08 15:02:08,329 - FedFDA_Flow - INFO - Round [176/200]	 Selected 31 clients.
+2025-05-08 15:02:26,171 - FedFDA_Flow - INFO - Round [176/200]	 Client training completed. Avg Acc: 76.85, Avg Loss: 0.8786
+2025-05-08 15:02:26,257 - FedFDA_Flow - INFO - Round [176/200]	 Train Loss [0.8786]	 Train Acc [76.85]	 Round Time [17.93s]
+2025-05-08 15:02:26,258 - FedFDA_Flow - INFO - Round [177/200]	 Selected 40 clients.
+2025-05-08 15:02:49,081 - FedFDA_Flow - INFO - Round [177/200]	 Client training completed. Avg Acc: 77.43, Avg Loss: 0.8566
+2025-05-08 15:02:49,170 - FedFDA_Flow - INFO - Round [177/200]	 Train Loss [0.8566]	 Train Acc [77.43]	 Round Time [22.91s]
+2025-05-08 15:02:49,171 - FedFDA_Flow - INFO - Round [178/200]	 Selected 33 clients.
+2025-05-08 15:03:09,159 - FedFDA_Flow - INFO - Round [178/200]	 Client training completed. Avg Acc: 74.77, Avg Loss: 0.9627
+2025-05-08 15:03:09,367 - FedFDA_Flow - INFO - Round [178/200]	 Train Loss [0.9627]	 Train Acc [74.77]	 Round Time [20.20s]
+2025-05-08 15:03:09,368 - FedFDA_Flow - INFO - Round [179/200]	 Selected 35 clients.
+2025-05-08 15:03:28,766 - FedFDA_Flow - INFO - Round [179/200]	 Client training completed. Avg Acc: 77.57, Avg Loss: 0.8443
+2025-05-08 15:03:28,875 - FedFDA_Flow - INFO - Round [179/200]	 Train Loss [0.8443]	 Train Acc [77.57]	 Round Time [19.51s]
+2025-05-08 15:03:28,875 - FedFDA_Flow - INFO - Round [180/200]	 Selected 26 clients.
+2025-05-08 15:03:44,200 - FedFDA_Flow - INFO - Round [180/200]	 Client training completed. Avg Acc: 77.50, Avg Loss: 0.8588
+2025-05-08 15:03:44,289 - FedFDA_Flow - INFO - Starting personalized evaluation...
+2025-05-08 15:04:13,963 - FedFDA_Flow - INFO - Personalized Eval Completed. KL Div: 97.4086
+2025-05-08 15:04:13,963 - FedFDA_Flow - INFO - Corruption Category Results: Noise: 32.12, Blur: 36.43, Other: 29.11, Clean: 36.40
+2025-05-08 15:04:13,963 - FedFDA_Flow - INFO - Clients with potentially suboptimal beta values: 50
+2025-05-08 15:04:13,963 - FedFDA_Flow - INFO - Round [180/200]	 Train Loss [0.8588]	 Train Acc [77.50]	 Round Time [15.41s]	 P-Test Loss [3.6312]	 P-Test Acc [33.98 +/- 6.72]
+2025-05-08 15:04:13,964 - FedFDA_Flow - INFO - Round [181/200]	 Selected 33 clients.
+2025-05-08 15:04:32,682 - FedFDA_Flow - INFO - Round [181/200]	 Client training completed. Avg Acc: 79.03, Avg Loss: 0.8003
+2025-05-08 15:04:32,911 - FedFDA_Flow - INFO - Round [181/200]	 Train Loss [0.8003]	 Train Acc [79.03]	 Round Time [18.95s]
+2025-05-08 15:04:32,911 - FedFDA_Flow - INFO - Round [182/200]	 Selected 30 clients.
+2025-05-08 15:04:50,581 - FedFDA_Flow - INFO - Round [182/200]	 Client training completed. Avg Acc: 76.33, Avg Loss: 0.8925
+2025-05-08 15:04:50,660 - FedFDA_Flow - INFO - Round [182/200]	 Train Loss [0.8925]	 Train Acc [76.33]	 Round Time [17.75s]
+2025-05-08 15:04:50,661 - FedFDA_Flow - INFO - Round [183/200]	 Selected 25 clients.
+2025-05-08 15:05:05,579 - FedFDA_Flow - INFO - Round [183/200]	 Client training completed. Avg Acc: 78.05, Avg Loss: 0.8315
+2025-05-08 15:05:05,829 - FedFDA_Flow - INFO - Round [183/200]	 Train Loss [0.8315]	 Train Acc [78.05]	 Round Time [15.17s]
+2025-05-08 15:05:05,830 - FedFDA_Flow - INFO - Round [184/200]	 Selected 37 clients.
+2025-05-08 15:05:28,120 - FedFDA_Flow - INFO - Round [184/200]	 Client training completed. Avg Acc: 75.83, Avg Loss: 0.9211
+2025-05-08 15:05:28,220 - FedFDA_Flow - INFO - Round [184/200]	 Train Loss [0.9211]	 Train Acc [75.83]	 Round Time [22.39s]
+2025-05-08 15:05:28,220 - FedFDA_Flow - INFO - Round [185/200]	 Selected 39 clients.
+2025-05-08 15:05:48,939 - FedFDA_Flow - INFO - Round [185/200]	 Client training completed. Avg Acc: 78.81, Avg Loss: 0.8067
+2025-05-08 15:05:49,027 - FedFDA_Flow - INFO - Round [185/200]	 Train Loss [0.8067]	 Train Acc [78.81]	 Round Time [20.81s]
+2025-05-08 15:05:49,027 - FedFDA_Flow - INFO - Round [186/200]	 Selected 29 clients.
+2025-05-08 15:06:05,400 - FedFDA_Flow - INFO - Round [186/200]	 Client training completed. Avg Acc: 76.04, Avg Loss: 0.9113
+2025-05-08 15:06:05,564 - FedFDA_Flow - INFO - Round [186/200]	 Train Loss [0.9113]	 Train Acc [76.04]	 Round Time [16.54s]
+2025-05-08 15:06:05,564 - FedFDA_Flow - INFO - Round [187/200]	 Selected 26 clients.
+2025-05-08 15:06:19,978 - FedFDA_Flow - INFO - Round [187/200]	 Client training completed. Avg Acc: 75.55, Avg Loss: 0.9373
+2025-05-08 15:06:20,133 - FedFDA_Flow - INFO - Round [187/200]	 Train Loss [0.9373]	 Train Acc [75.55]	 Round Time [14.57s]
+2025-05-08 15:06:20,133 - FedFDA_Flow - INFO - Round [188/200]	 Selected 32 clients.
+2025-05-08 15:06:38,350 - FedFDA_Flow - INFO - Round [188/200]	 Client training completed. Avg Acc: 77.22, Avg Loss: 0.8590
+2025-05-08 15:06:38,490 - FedFDA_Flow - INFO - Round [188/200]	 Train Loss [0.8590]	 Train Acc [77.22]	 Round Time [18.36s]
+2025-05-08 15:06:38,491 - FedFDA_Flow - INFO - Round [189/200]	 Selected 29 clients.
+2025-05-08 15:06:55,873 - FedFDA_Flow - INFO - Round [189/200]	 Client training completed. Avg Acc: 77.94, Avg Loss: 0.8265
+2025-05-08 15:06:55,957 - FedFDA_Flow - INFO - Round [189/200]	 Train Loss [0.8265]	 Train Acc [77.94]	 Round Time [17.47s]
+2025-05-08 15:06:55,958 - FedFDA_Flow - INFO - Round [190/200]	 Selected 22 clients.
+2025-05-08 15:07:10,277 - FedFDA_Flow - INFO - Round [190/200]	 Client training completed. Avg Acc: 77.90, Avg Loss: 0.8589
+2025-05-08 15:07:10,418 - FedFDA_Flow - INFO - Round [190/200]	 Train Loss [0.8589]	 Train Acc [77.90]	 Round Time [14.46s]
+2025-05-08 15:07:10,419 - FedFDA_Flow - INFO - Round [191/200]	 Selected 25 clients.
+2025-05-08 15:07:25,796 - FedFDA_Flow - INFO - Round [191/200]	 Client training completed. Avg Acc: 74.37, Avg Loss: 0.9904
+2025-05-08 15:07:25,926 - FedFDA_Flow - INFO - Round [191/200]	 Train Loss [0.9904]	 Train Acc [74.37]	 Round Time [15.51s]
+2025-05-08 15:07:25,926 - FedFDA_Flow - INFO - Round [192/200]	 Selected 33 clients.
+2025-05-08 15:07:44,957 - FedFDA_Flow - INFO - Round [192/200]	 Client training completed. Avg Acc: 75.95, Avg Loss: 0.9203
+2025-05-08 15:07:45,045 - FedFDA_Flow - INFO - Round [192/200]	 Train Loss [0.9203]	 Train Acc [75.95]	 Round Time [19.12s]
+2025-05-08 15:07:45,045 - FedFDA_Flow - INFO - Round [193/200]	 Selected 33 clients.
+2025-05-08 15:08:03,433 - FedFDA_Flow - INFO - Round [193/200]	 Client training completed. Avg Acc: 71.78, Avg Loss: 1.0652
+2025-05-08 15:08:03,523 - FedFDA_Flow - INFO - Round [193/200]	 Train Loss [1.0652]	 Train Acc [71.78]	 Round Time [18.48s]
+2025-05-08 15:08:03,523 - FedFDA_Flow - INFO - Round [194/200]	 Selected 25 clients.
+2025-05-08 15:08:19,311 - FedFDA_Flow - INFO - Round [194/200]	 Client training completed. Avg Acc: 80.58, Avg Loss: 0.7070
+2025-05-08 15:08:19,392 - FedFDA_Flow - INFO - Round [194/200]	 Train Loss [0.7070]	 Train Acc [80.58]	 Round Time [15.87s]
+2025-05-08 15:08:19,393 - FedFDA_Flow - INFO - Round [195/200]	 Selected 31 clients.
+2025-05-08 15:08:37,761 - FedFDA_Flow - INFO - Round [195/200]	 Client training completed. Avg Acc: 79.44, Avg Loss: 0.7705
+2025-05-08 15:08:37,843 - FedFDA_Flow - INFO - Round [195/200]	 Train Loss [0.7705]	 Train Acc [79.44]	 Round Time [18.45s]
+2025-05-08 15:08:37,843 - FedFDA_Flow - INFO - Round [196/200]	 Selected 38 clients.
+2025-05-08 15:08:59,555 - FedFDA_Flow - INFO - Round [196/200]	 Client training completed. Avg Acc: 75.22, Avg Loss: 0.9542
+2025-05-08 15:08:59,639 - FedFDA_Flow - INFO - Round [196/200]	 Train Loss [0.9542]	 Train Acc [75.22]	 Round Time [21.80s]
+2025-05-08 15:08:59,639 - FedFDA_Flow - INFO - Round [197/200]	 Selected 28 clients.
+2025-05-08 15:09:15,034 - FedFDA_Flow - INFO - Round [197/200]	 Client training completed. Avg Acc: 79.25, Avg Loss: 0.7852
+2025-05-08 15:09:15,119 - FedFDA_Flow - INFO - Round [197/200]	 Train Loss [0.7852]	 Train Acc [79.25]	 Round Time [15.48s]
+2025-05-08 15:09:15,119 - FedFDA_Flow - INFO - Round [198/200]	 Selected 27 clients.
+2025-05-08 15:09:31,321 - FedFDA_Flow - INFO - Round [198/200]	 Client training completed. Avg Acc: 78.32, Avg Loss: 0.8154
+2025-05-08 15:09:31,337 - FedFDA_Flow - INFO - Round [198/200]	 Train Loss [0.8154]	 Train Acc [78.32]	 Round Time [16.22s]
+2025-05-08 15:09:31,337 - FedFDA_Flow - INFO - Round [199/200]	 Selected 29 clients.
+2025-05-08 15:09:47,655 - FedFDA_Flow - INFO - Round [199/200]	 Client training completed. Avg Acc: 76.87, Avg Loss: 0.8884
+2025-05-08 15:09:47,823 - FedFDA_Flow - INFO - Round [199/200]	 Train Loss [0.8884]	 Train Acc [76.87]	 Round Time [16.49s]
+2025-05-08 15:09:47,823 - FedFDA_Flow - INFO - Round [200/200]	 Selected 19 clients.
+2025-05-08 15:10:00,322 - FedFDA_Flow - INFO - Round [200/200]	 Client training completed. Avg Acc: 70.49, Avg Loss: 1.1357
+2025-05-08 15:10:00,335 - FedFDA_Flow - INFO - Starting personalized evaluation...
+2025-05-08 15:10:29,761 - FedFDA_Flow - INFO - Personalized Eval Completed. KL Div: 97.5043
+2025-05-08 15:10:29,761 - FedFDA_Flow - INFO - Corruption Category Results: Noise: 31.62, Blur: 36.13, Other: 28.96, Clean: 36.14
+2025-05-08 15:10:29,761 - FedFDA_Flow - INFO - Clients with potentially suboptimal beta values: 50
+2025-05-08 15:10:29,762 - FedFDA_Flow - INFO - Round [200/200]	 Train Loss [1.1357]	 Train Acc [70.49]	 Round Time [12.51s]	 P-Test Loss [3.5581]	 P-Test Acc [33.71 +/- 6.88]
+Training pFedFDA...
+Method took (18.68, 3.41) seconds per training iteration
+Method took (3757.18) total seconds
