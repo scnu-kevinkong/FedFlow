@@ -76,6 +76,8 @@ class FlowMatchingModel(nn.Module):
         t_emb = self.time_embed(t)  # [B, 64]
         z = self.low_rank_proj(z)
         x = torch.cat([z, t_emb], dim=-1)  # 确保在最后一维拼接
+        # REMOVED: sigmoid scaling
+        # return self.inv_proj(self.main_net(x)) * torch.sigmoid(self.output_scale)
         return self.inv_proj(self.main_net(x))
 
     @torch.no_grad()
@@ -227,9 +229,15 @@ class ServerFedFDA(Server):
                 # Pass normalized params to flow loss
                 flow_loss = self.flow_model.compute_flow_loss(real_params_normalized, noise_params_normalized, t)
                 
+                # REMOVED: Adversarial training part was here
+                # generated_params = self.flow_model.generate(torch.randn_like(real_params_normalized))
+                # adv_loss, metrics = self.flow_model.compute_adv_loss(real_params_normalized, generated_params) # Error occurred here
+                # entropy_loss = -torch.mean(torch.log_softmax(generated_params, dim=1))
                 
                 # 总损失 (Only Flow Loss now)
                 total_loss = flow_loss
+                # REMOVED: adv_loss and entropy_loss terms from total_loss calculation
+                # total_loss = flow_loss + min(self.r/200, 1.0) * adv_loss + 0.01 * entropy_loss
                 
                 losses.update(total_loss.item(), real_params_normalized.size(0))
                 self.optimizer.zero_grad()
@@ -252,21 +260,19 @@ class ServerFedFDA(Server):
                 params_flat = self._flatten_params(c.model.state_dict())
                 params_flat = torch.nan_to_num(params_flat, nan=0.0) # Handle NaNs
                  # Moderate clamping, consider making this adaptive or configurable
-                params_flat = torch.clamp(params_flat, -10.0, 10.0)
-
+                params_flat = torch.clamp(params_flat, -10.0, 10.0) 
+                
                 # Optional: Abnormal update detection (keep if useful)
                 param_diff = params_flat.to(self.device) - global_params_flat
                 global_norm = global_params_flat.norm()
                  # Adaptive threshold, maybe tune multiplier (e.g., 2 instead of 3?)
                 threshold = max(3 * global_norm, 50.0) # Lowered minimum threshold
                 if param_diff.norm() > threshold:
-                    print(f"Client {c.client_idx} update norm {param_diff.norm():.1f} > threshold {threshold:.1f}. Clipping update.")
-                    # Norm clipping instead of rejection
-                    clipped_param_diff = param_diff * (threshold / param_diff.norm())
-                    params_flat = global_params_flat + clipped_param_diff # Apply clipped diff to global params
+                    print(f"Client {c.client_idx} update norm {param_diff.norm():.1f} > threshold {threshold:.1f}. Using global params.")
+                    params_flat = global_params_flat.cpu().clone() # Use CPU version of global params
                 
                 # Store valid params (on CPU) and weights
-                client_params_list.append(params_flat.cpu()) # Ensure params_flat is on CPU before appending
+                client_params_list.append(params_flat.cpu()) 
                 client_weights.append(c.num_train)
                 total_samples += c.num_train
 

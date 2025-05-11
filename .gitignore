@@ -168,13 +168,5 @@ cython_debug/
 #.idea/
 
 # New additions from the code block
-data/
-*.pt
-*.pth
-*.h5
-*.tar
-*.zip
-*.npz
-*.npy
 
 eval_model/

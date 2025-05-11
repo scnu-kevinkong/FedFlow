@@ -15,16 +15,16 @@ FEDAVG_ARGS="--method FedAvg"
 FEDFDA_ARGS="--method pFedFDA"
 
 # specify dataset arguments
-DATASET_ARGS="--dataset cifar100 --num_classes 100"
+DATASET_ARGS="--dataset cifar10 --num_classes 10"
 
 # specify dataset partition arguments
-PARTITION_ARGS="--partition_path cifar100_c100_dir05_25"
+PARTITION_ARGS="--partition_path cifar10_c100_dir05_1"
 
 # FedAvg | FedAvgFT
-nohup python main.py ${BASE_ARGS} ${FEDAVG_ARGS} ${DATASET_ARGS} ${PARTITION_ARGS} ${DATA_ARGS} ${MODEL_ARGS} >> FedAvg_multi_c100_cifar100_25_flow.log
+nohup python main.py ${BASE_ARGS} ${FEDAVG_ARGS} ${DATASET_ARGS} ${PARTITION_ARGS} ${DATA_ARGS} ${MODEL_ARGS} >> FedAvg_multi_c100_cifar100_100_flow.log
 
 # pFedFDA
-# nohup python main.py ${BASE_ARGS} ${FEDFDA_ARGS} ${DATASET_ARGS} ${PARTITION_ARGS} ${DATA_ARGS} ${MODEL_ARGS} >> pFedFDA_multi_c100_cifar100_25_flow.log
+nohup python main.py ${BASE_ARGS} ${FEDFDA_ARGS} ${DATASET_ARGS} ${PARTITION_ARGS} ${DATA_ARGS} ${MODEL_ARGS} >> pFedFDA_multi_c100_cifar100_100_flow.log
 # python main.py ${BASE_ARGS} ${FEDFDA_ARGS} ${DATASET_ARGS} ${PARTITION_ARGS} ${DATA_ARGS} ${MODEL_ARGS}
 # pFedMDG
 # nohup python main.py ${BASE_ARGS} ${FEDFDA_ARGS} ${DATASET_ARGS} ${PARTITION_ARGS} ${DATA_ARGS} ${MODEL_ARGS} >> 1.log
